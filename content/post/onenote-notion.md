@@ -1,27 +1,17 @@
 ---
-id: 1809
-title: OneNote to Notion &#8211; Moving Apps
-author: Mr Ash
-type: "post"
-guid: https://mrash.co/?p=1809
-url: "/onenote-to-notion-moving-apps/"
-site-sidebar-layout:
-- default
-site-content-layout:
-- default
-theme-transparent-header-meta:
-- default
-ekit_post_views_count:
-- '2717'
-primary_accent:
-- '#004CFF'
-secondary_accent:
-- '#FF9D00'
-image: /wp-content/uploads/2020/05/OneNote-to-Notion-Moving-Apps.png
-categories: "['Writing']"
+title: OneNote to Notion and Moving Apps
+date: 2020-05-22
+type: post
+url: /onenote-to-notion-moving-apps/
+image: https://p146.p4.n0.cdn.getcloudapp.com/items/4gueE9jl/bbed0ac8-078e-4e03-b0cd-b3e8d8745809.png?source=viewer&v=d2c122917df690b7a267bed925895aeb
+categories: Work-Life
+tags:
+    - Onenote
+    - Notion
 ---
 
-<iframe frameborder="0" height="102px" loading="lazy" scrolling="no" src="https://anchor.fm/mrashleyball/embed/episodes/OneNote-To-Notion--Moving-Apps-e16k1u2" width="400px"></iframe>If you’re reading this you may very well be a lot like me.
+<!-- <iframe frameborder="0" height="102px" loading="lazy" scrolling="no" src="https://anchor.fm/mrashleyball/embed/episodes/OneNote-To-Notion--Moving-Apps-e16k1u2" width="400px"></iframe> -->
+If you’re reading this you may very well be a lot like me.
 
 Using OneNote for personal notes, jotting down key meeting highlights and organising thoughts and ideas.
 

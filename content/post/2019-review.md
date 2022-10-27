@@ -1,29 +1,19 @@
 ---
-id: 1436
 title: 2019 in Review
-author: Mr Ash
-type: "post"
-guid: https://mrash.co/?p=1436
-url: "/2019-in-review/"
-geo_latitude:
-- '-26.6495925'
-geo_longitude:
-- '153.099707'
-geo_public:
-- '1'
-eael_transient_elements:
-- a:3:{i:0;s:12:"creative-btn";i:1;s:23:"eael-content-protection";i:2;s:21:"eael-reading-progress";}
-ekit_post_views_count:
-- '665'
-primary_accent:
-- '#004CFF'
-secondary_accent:
-- '#FF9D00'
-categories: "['Events']"
-tags: "['learning journey', 'learning journey 2019 review', 'review', 'tech 2019 review', 'year review 2019 review']"
+type: post
+url: /2019-in-review/
+date: 2019-12-16
+image: https://p146.p4.n0.cdn.getcloudapp.com/items/Kou1KPNL/ce995e43-746b-4d5c-8c5c-66ceca3e6a81.jpg?source=viewer&v=261edaa27e33abde0ebf8a193229bfe0
+categories: Work-Life
+tags: 
+    - Events
+    - Personal Growth
+    - Annual Review
 ---
 
-<iframe frameborder="0" height="102px" loading="lazy" scrolling="no" src="https://anchor.fm/mrashleyball/embed/episodes/2019-In-Review-e16ksqi" width="400px"></iframe>What a year! 2019 has been busy to say the least, I’ve learnt a lot of new lessons made even more mistakes! But overall, it’s been a massive year of growth so it’s all been worth it! Let’s review 2019!
+<!-- https://anchor.fm/mrashleyball/embed/episodes/2019-In-Review-e16ksqi -->
+<iframe frameborder="0" height="102px" loading="lazy" scrolling="no" src="https://anchor.fm/mrashleyball/embed/episodes/2019-In-Review-e16ksqi" width="400px"></iframe>
+What a year! 2019 has been busy to say the least, I’ve learnt a lot of new lessons made even more mistakes! But overall, it’s been a massive year of growth so it’s all been worth it! Let’s review 2019!
 
 ## My Job as an IT Teacher
 
@@ -77,4 +67,4 @@ It’s been a great year and I wouldn’t change anything! I love my job, I’m 
 
 2019 was a big year and I’m excited to see where 2020 will take me. Thanks to everyone along the way who has helped me.
 
-<div class="geo geo-post" id="geo-post-1436" style="display: none"><span class="latitude">-26.6495925</span><span class="longitude">153.099707</span></div>
+<!-- <div class="geo geo-post" id="geo-post-1436" style="display: none"><span class="latitude">-26.6495925</span><span class="longitude">153.099707</span></div> -->
