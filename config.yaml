@@ -2,7 +2,7 @@
 # Example Site YAML
 ###################################
 
-baseurl: 'https://mrashleyball.github.io'
+baseurl: 'https://mrashleyball.github.io/mrash.co/'
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
