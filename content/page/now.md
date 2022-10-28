@@ -1,13 +1,17 @@
 ---
-id: 3005
 title: Now
 date: '2021-04-01T07:00:23+10:00'
-author: 'Mr Ash'
-layout: page
-guid: 'https://mrash.co/?page_id=3005'
+# layout: page
+type: menu
+url: /now/
 ---
 
 <figure>![](https://mrash.co/wp-content/uploads/2020/09/cropped-JPEG_20200805_155226_6039471063435463588.png)</figure>Hi, I’m Ash. Here’s the latest:
+
+<!-- Begin Gist Signup Form -->
+<div class="gist-embed-form" data-form-type="embedded" data-form-id="16254180" data-workspace-id="aw3xhcat"></div>
+<script type="text/javascript" src="https://forms-widget.getgist.com/" defer></script>
+<!-- End Gist Signup Form -->
 
 ## 💌 Monthly Newsletter
 
