@@ -7,7 +7,7 @@ languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
 title: Mr Ash
-# description: 'IT teacher, former web designer, learning CyberSec • Road to #100DaysOfHacking on Hackers Learning Path.'
+description: 'IT teacher, former web designer, learning CyberSec • Road to #100DaysOfHacking on Hackers Learning Path.'
 
 languages:
     en:
@@ -43,17 +43,19 @@ hasCJKLanguage: false
 permalinks:
     post: /:slug/ #/p/:slug/
     page: /:slug/
+    newsletter: /:slug/
 
 params:
     mainSections:
         - post
+        # - page
     featuredImageField: image
     rssFullContent: true
-    favicon: "https://p146.p4.n0.cdn.getcloudapp.com/items/2Nu7D5Nw/c9b1eaed-4c25-4eea-8506-c9f845907430.png?source=viewer&v=89306f773efc0c151eeb39df2eac5bae" # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
+    favicon: "/favicon.ico" # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
     footer:
-        since: 2020
-        customText:
+        since: 2021
+        customText: Hello World
 
     dateFormat:
         published: Jan 02, 2006
@@ -278,14 +280,14 @@ params:
         since:
         customText:
 
-    dateFormat:
-        published: Jan 02, 2006
-        lastUpdated: Jan 02, 2006 15:04 MST
+    # dateFormat:
+    #     published: Jan 02, 2006
+    #     lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        compact: false
-        emoji:
-        subtitle:
+        compact: bool
+        emoji: 👋
+        subtitle: Hello there
         avatar:
             enabled: true
             local: false
@@ -395,7 +397,7 @@ params:
 
     colorScheme:
         # Display toggle
-        toggle: true
+        # toggle: true
 
         # Available values: auto, light, dark
         default: auto

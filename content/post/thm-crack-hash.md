@@ -7,7 +7,7 @@ date: 2022-10-17
 categories: Cyber
 tags:
     - TryHackMe
-    - CTF Walkthrough
+    - Capture The Flag
     - Hacking
 ---
 

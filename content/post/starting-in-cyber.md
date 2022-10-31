@@ -1,26 +1,21 @@
 ---
-id: 3726
 title: Starting Out In Cyber Security
-author: Mr Ash
-type: "post"
-guid: https://mrash.co/?p=3726
-url: "/starting-out-in-cyber-security/"
-primary_accent:
-- '#004CFF'
-secondary_accent:
-- '#FF9D00'
-ekit_post_views_count:
-- '1234'
-- '1234'
-image: https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?ixid=MnwxNTI0MzJ8MHwxfGFsbHx8fHx8fHx8fDE2MTY4Nzc2NTE&ixlib=rb-1.2.1&fm=jpg&q=85&fit=crop&w=2560&h=1706
-categories: "['Hacking']"
+type: post
+date: 2021-03-28
+url: /starting-out-in-cyber-security/
+image: "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?ixid=MnwxNTI0MzJ8MHwxfGFsbHx8fHx8fHx8fDE2MTY4Nzc2NTE&ixlib=rb-1.2.1&fm=jpg&q=85&fit=crop&w=2560&h=1706"
+categories: Cyber, Hacking
 ---
 
-<iframe frameborder="0" height="102px" loading="lazy" scrolling="no" src="https://anchor.fm/mrashleyball/embed/episodes/Starting-Out-In-Cyber-Security-e16jqhk" width="400px"></iframe>Over the last few years, the term Cyber Security has become more popular.
+<iframe frameborder="0" loading="lazy" scrolling="no" src="https://anchor.fm/mrashleyball/embed/episodes/Starting-Out-In-Cyber-Security-e16jqhk" width="100%"></iframe>
+
+Over the last few years, the term Cyber Security has become more popular.
 
 Google trends show it’s searched now more than ever before in history. It’s currently [Australia’s top hiring priority](https://www.csoonline.com/article/3611595/cybersecurity-is-australia-s-no-1-hiring-priority.html).
 
-<figure class="wp-block-embed is-type-photo is-provider-created-with-cloudapp wp-block-embed-created-with-cloudapp"><div class="wp-block-embed__wrapper">[![Screenshot_20210228-062204](https://p146.p4.n0.cdn.getcloudapp.com/items/12uABw8E/be198317-e854-4e8d-8f90-9b5eb66b18ac.png)](https://to.mrash.co/12uABw8E)</div></figure>What’s Cyber Security? And why is it so popular? Let’s do some research and find out!
+![](https://p146.p4.n0.cdn.getcloudapp.com/items/12uABw8E/be198317-e854-4e8d-8f90-9b5eb66b18ac.png)
+
+What’s Cyber Security? And why is it so popular? Let’s do some research and find out!
 
 Disclaimer: I’m not a Cyber Security expert, I’m a student of IT and love sharing what I’m learning or have learnt.
 
