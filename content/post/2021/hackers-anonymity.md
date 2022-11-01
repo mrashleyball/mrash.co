@@ -1,18 +1,18 @@
 ---
-id: 3901
 title: Hackers Beginner Guide To Online Anonymity
 author: Mr Ash
-type: "post"
-guid: https://mrash.co/?p=3901
-url: "/hackers-beginner-guide-to-online-anonymity/"
-primary_accent:
-- '#004CFF'
-secondary_accent:
-- '#FF9D00'
-ekit_post_views_count:
-- '635'
-image: /wp-content/uploads/2021/05/pexels-photo-5935794.jpeg
-categories: "['Hacking']"
+type: post
+published: 2021-05-21
+lastUpdated: 2022-11-02
+url: /hackers-beginner-guide-to-online-anonymity/
+
+image: https://p146.p4.n0.cdn.getcloudapp.com/items/nOubxrjR/c906d962-1817-457c-be13-769207ae7c27.jpeg?v=5bba9db8ac60e028ca814a0ecff40bfa
+
+categories: 
+    - Cyber
+tags:
+    - Hacking
+    - TOR
 ---
 
 How do we start using our mad hacker skills in the real world AND remain undetected?
@@ -126,8 +126,7 @@ Why? Well, every time we boot our machine, we don’t want to set each service u
 
 First, let’s create the file with `nano auto-stealth` and then we’ll add in the following text:
 
-```
-<pre class="wp-block-code">```
+```bash
 #!/bin/bash
 
 sudo service tor start
@@ -135,7 +134,6 @@ sudo service tor start
 sudo anonsurf start
 
 sudo macchanger -r eth0
-```
 ```
 
 Save and exit that file using `CTRL + X` then `Y` and `ENTER`.
@@ -147,8 +145,6 @@ How cool is that?
 Now every time you want to go full Mr Robot mode, just simply run that one file and BAM! You’re in the matrix.
 
 \*You’ll still have to use `proxychains` before any other command for it to route via the TOR setup, but it’s up and running!
-
-- - - - - -
 
 Thanks for reading this guide toward your hacker dreams.
 

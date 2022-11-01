@@ -23,6 +23,7 @@ tags:
     - VirtualBox
 
     - TryHackMe
+    - HackTheBox
 
     - Events
     - Personal Growth
