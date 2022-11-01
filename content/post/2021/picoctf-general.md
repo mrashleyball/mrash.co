@@ -4,7 +4,7 @@ published: 2021-03-29
 type: "post"
 url: "/picoctf-general-skills/"
 image: https://images.unsplash.com/photo-1513594003807-3798b2d49908?ixid=MnwxNTI0MzJ8MHwxfGFsbHx8fHx8fHx8fDE2MTY5OTI5NDU&ixlib=rb-1.2.1&fm=jpg&q=85&fit=crop&w=2560&h=1707
-categories: "['Hacking']"
+categories: Cyber
 lastUpdate: 2022-11-01
 ---
 

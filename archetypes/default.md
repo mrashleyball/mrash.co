@@ -3,9 +3,16 @@ title: "{{ replace .Name "-" " " | title }}"
 published: {{ .Date }}
 lastUpdated: {{ .Date }}
 # draft: true
+
 image: 
+
 url: 
-categories: Cyber, Work-life, Web, Newsletter
+
+categories: 
+    - Cyber
+    - Work-life
+    - Web
+    - Newsletter
 tags:
     - CyberSec
     - Capture The Flag
