@@ -54,8 +54,8 @@ params:
     favicon: "/favicon.ico" # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
     footer:
-        since: 2021
-        customText: Hello World
+        since: '2017-2022'
+        customText: 'Hello World'
 
     dateFormat:
         published: Jan 02, 2006
@@ -285,9 +285,9 @@ params:
     rssFullContent: true
     favicon:
 
-    footer:
-        since:
-        customText:
+    # footer:
+    #     # since:
+    #     # customText:
 
     # dateFormat:
     #     published: Jan 02, 2006
