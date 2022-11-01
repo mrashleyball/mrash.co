@@ -62,8 +62,8 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        # emoji: 🍥
+        subtitle: 'IT teacher, former web designer, learning CyberSec • Road to #100DaysOfHacking on Hackers Learning Path.'
         avatar:
             enabled: true
             local: true
@@ -200,22 +200,29 @@ params:
 ### See https://docs.stack.jimmycai.com/configuration/custom-menu.html
 ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
 menu:
-    main:
-        - identifier: home
-          name: Home
-          url: /
-          weight: 1
+    main: 
+        - identifier: newsletter
+          name: Newsletters
+          url: /categories/newsletter/
+          weight: -70
           params:
-            icon: home
-            # newTab: true
+            icon: messages
 
-        - identifier: about
-          name: About
-          url: /about
-          weight: 2
-          params:
-            icon: user
-            # newTab: true
+        # - identifier: archives
+        #   name: Archives
+        #   url: /archives
+        #   weight: 2
+        #   params:
+        #     icon: user
+        #     # newTab: true
+
+        # - identifier: about
+        #   name: About
+        #   url: /about
+        #   weight: 3
+        #   params:
+        #     icon: user
+        #     # newTab: true
 
     social:
         - identifier: github
@@ -268,6 +275,8 @@ module:
     hugoVersion:
         extended: true
         min: "0.87.0"
+    imports:
+        - path: github.com/CaiJimmy/hugo-theme-stack/v3
 
 params:
     mainSections:
@@ -378,8 +387,19 @@ params:
             id:
 
     widgets:
-        homepage: []
-        page: []
+        homepage:
+            - type: search
+            - type: archives
+              params:
+                  limit: 5
+            - type: categories
+              params:
+                  limit: 10
+            - type: tag-cloud
+              params:
+                  limit: 10
+        page:
+            - type: toc
 
     opengraph:
         twitter:
@@ -397,7 +417,7 @@ params:
 
     colorScheme:
         # Display toggle
-        # toggle: true
+        toggle: false
 
         # Available values: auto, light, dark
         default: auto
@@ -407,31 +427,3 @@ params:
             enabled: true
         content:
             enabled: true
-
-########################################################
-# Goldmark YAML https://gohugo.io/getting-started/configuration-markup
-########################################################
-
-# markup:
-#   goldmark:
-#     extensions:
-#       definitionList: true
-#       footnote: true
-#       linkify: true
-#       linkifyProtocol: https
-#       strikethrough: true
-#       table: true
-#       taskList: true
-#       typographer: true
-    
-#     parser:
-#       attribute:
-#         block: false
-#         title: true
-#       autoHeadingID: true
-#       autoHeadingIDType: github
-    
-#     renderer:
-#       hardWraps: false
-#       unsafe: true
-#       xhtml: false

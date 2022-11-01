@@ -2,8 +2,8 @@
 title: "Best Way To Learn CyberSec • Oct 22"
 date: 2022-10-31
 # draft: true
-type: "newsletter"
-image: https://p146.p4.n0.cdn.getcloudapp.com/items/ApuDbOQl/fccfcd9d-1aa2-4ae6-aedb-c4c7d5cd90b0.jpg?v=344534cc99c6be5d8d1a965bddb7fe04
+type: newsletter
+image: # https://p146.p4.n0.cdn.getcloudapp.com/items/ApuDbOQl/fccfcd9d-1aa2-4ae6-aedb-c4c7d5cd90b0.jpg?v=344534cc99c6be5d8d1a965bddb7fe04
 url: the-best-way-to-learn-cybersec
 
 categories: Newsletter

@@ -4,7 +4,9 @@ type: post
 date: 2021-03-28
 url: /starting-out-in-cyber-security/
 image: "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?ixid=MnwxNTI0MzJ8MHwxfGFsbHx8fHx8fHx8fDE2MTY4Nzc2NTE&ixlib=rb-1.2.1&fm=jpg&q=85&fit=crop&w=2560&h=1706"
-categories: Cyber, Hacking
+categories: 
+    - Cyber
+    - Hacking
 ---
 
 <iframe frameborder="0" loading="lazy" scrolling="no" src="https://anchor.fm/mrashleyball/embed/episodes/Starting-Out-In-Cyber-Security-e16jqhk" width="100%"></iframe>

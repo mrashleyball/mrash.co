@@ -1,9 +1,14 @@
 ---
 title: Now
-date: '2021-04-01T07:00:23+10:00'
-# layout: page
+date: 2021-04-01
 type: menu
 url: /now/
+
+menu:
+    main:
+        weight: -100
+        params: 
+            icon: user
 ---
 
 <figure>![](https://mrash.co/wp-content/uploads/2020/09/cropped-JPEG_20200805_155226_6039471063435463588.png)</figure>Hi, I’m Ash. Here’s the latest:
