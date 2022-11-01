@@ -172,7 +172,7 @@ params:
     opengraph:
         twitter:
             # Your Twitter username
-            site:
+            site: mrash_co
 
             # Available values: summary, summary_large_image
             card: summary_large_image
@@ -284,14 +284,6 @@ params:
     featuredImageField: image
     rssFullContent: true
     favicon:
-
-    # footer:
-    #     # since:
-    #     # customText:
-
-    # dateFormat:
-    #     published: Jan 02, 2006
-    #     lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
         compact: bool
@@ -427,3 +419,17 @@ params:
             enabled: true
         content:
             enabled: true
+
+
+########################################################
+# Custom https://logfetch.com/hugo-last-modified-date/
+########################################################
+
+# enableGitInfo: true
+
+# frontmatter:
+#   lastmod:
+#   - lastmod
+#   - :git
+#   - date
+#   - publishDate

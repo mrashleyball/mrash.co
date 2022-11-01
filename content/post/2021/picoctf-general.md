@@ -1,18 +1,11 @@
 ---
-id: 3738
 title: PicoCTF General Skills
-author: Mr Ash
+published: 2021-03-29
 type: "post"
-guid: https://mrash.co/?p=3738
 url: "/picoctf-general-skills/"
-primary_accent:
-- '#004CFF'
-secondary_accent:
-- '#FF9D00'
-ekit_post_views_count:
-- '1012'
 image: https://images.unsplash.com/photo-1513594003807-3798b2d49908?ixid=MnwxNTI0MzJ8MHwxfGFsbHx8fHx8fHx8fDE2MTY5OTI5NDU&ixlib=rb-1.2.1&fm=jpg&q=85&fit=crop&w=2560&h=1707
 categories: "['Hacking']"
+lastUpdate: 2022-11-01
 ---
 
 Welcome, it’s nice to have you here.
@@ -39,7 +32,6 @@ Hint: Submit your answer in our flag format. For example, if your answer was ‘
     3. Searched `what's "x" in hexadecimal?`
     4. [Found](https://forums.anandtech.com/threads/what-is-the-x-in-hexadecimal-strings.923357/) 0x can be ignored.
     5. Converted `70` to ASCII = `p`
-    6. 🚩 ***picoCTF{p}***
 
 ## Warmed Up
 
@@ -52,7 +44,6 @@ Hints: Submit your answer in our flag format. For example, if your answer was �
 - Answer
     1. Searched `base 16 to base 10`
     2. Ignored 0x, input `3D`
-    3. 🚩 ***picoCTF{61}***
 
 ## 2Warm
 
@@ -65,7 +56,6 @@ Hints: Submit your answer in our competition’s flag format. For example, if yo
 - Answer
     1. Searched `base 10 to base 2`
     2. [Found](https://math.tools/calculator/base/10-2), input `42` = `101010`
-    3. 🚩 ***picoCTF{101010}***
 
 ## what’s a net cat?
 
@@ -77,7 +67,6 @@ Hint: nc [tutorial](https://linux.die.net/man/1/nc).
 
 - Answer
     1. Terminal: `nc [jupiter.challenges.picoctf.org](<http://jupiter.challenges.picoctf.org/>) 25103`
-    2. 🚩 ***picoCTF{nEtCat\_Mast3ry\_d0c64587}***
 
 ## strings it
 
@@ -89,7 +78,7 @@ Hints: [strings](https://linux.die.net/man/1/strings).
 
 - Answer
     1. Didn’t have `strings` &gt; searched `install strings linux` &gt; [found](https://askubuntu.com/questions/948279/how-to-install-strings-in-ubuntu-server) `apt-get install binutils`
-    2. `strings strings | grep -e "picoCTF"` = 🚩 ***picoCTF{5tRIng5\_1T\_d66c7bb7}***
+    2. `strings strings | grep -e "picoCTF"`
 
 ## Bases
 
@@ -102,7 +91,6 @@ Hint: Submit your answer in our flag format. For example, if your answer was ‘
 - Answers
     1. Searched `bDNhcm5fdGgzX3IwcDM1` &gt; [found](https://www.base64decode.org/) Base64 decoder.
     2. Input `bDNhcm5fdGgzX3IwcDM1`
-    3. 🚩 ***l3arn\_th3\_r0p35***
 
 ## First Grep
 
@@ -115,7 +103,6 @@ Hints: grep [tutorial](https://ryanstutorials.net/linuxtutorial/grep.php).
 - Answers
     1. Download file `wget [<https://jupiter.challenges.picoctf.org/static/315d3325dc668ab7f1af9194f2de7e7a/file>](<https://jupiter.challenges.picoctf.org/static/315d3325dc668ab7f1af9194f2de7e7a/file>)`
     2. `grep "picoCTF" file`
-    3. 🚩 ***grep\_is\_good\_to\_find\_things\_f77e0797***
 
 ## Based
 
@@ -132,7 +119,6 @@ Hint 2: It might help to have multiple windows open.
     2. Search [base2 to ASCII](https://www.binaryhexconverter.com/binary-to-ascii-text-converter) &gt; input.
     3. Search [base8 to ASCII](http://www.unit-conversion.info/texttools/octal/) &gt; input.
     4. Search [base16 to ASCII](https://onlineasciitools.com/convert-arbitrary-base-to-ascii) &gt; input.
-    5. 🚩 ***picoCTF{learning\_about\_converting\_values\_02167de8}***
 
 ## plumbing
 
@@ -146,7 +132,6 @@ Hint 2: What’s a pipe? No not that kind of pipe… This [kind](http://www.linf
 
 - Answer
     1. `nc jupiter.challenges.picoctf.org 14291 | grep -e "picoCTF"`
-    2. 🚩 ***picoCTF{digital\_plumb3r\_ea8bfec7}***
 
 ## mus1c
 

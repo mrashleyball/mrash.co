@@ -1,6 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+published: {{ .Date }}
+lastUpdated: {{ .Date }}
 # draft: true
 image: 
 url: 
