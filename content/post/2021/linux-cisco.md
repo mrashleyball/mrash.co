@@ -1,18 +1,16 @@
 ---
-id: 4027
 title: Linux Unhatched Cisco Course Review and Notes
 author: Mr Ash
 type: "post"
-guid: https://mrash.co/?p=4027
+published: 2021-07-21
+lastUpdated: 2022-11-02
 url: "/linux-unhatched-cisco-course-review-and-notes/"
-primary_accent:
-- '#004CFF'
-secondary_accent:
-- '#FF9D00'
-ekit_post_views_count:
-- '769'
 image: https://images.unsplash.com/photo-1580706483913-b6ea7db483a0?ixid=MnwxNTI0MzJ8MHwxfGFsbHx8fHx8fHx8fDE2MjY4NjcwNTI&ixlib=rb-1.2.1&fm=jpg&q=85&fit=crop&w=2560&h=2011
-categories: "['Linux']"
+categories: 
+    - Cyber
+tags:
+    - Linux
+    - BASH
 ---
 
 Learning Linux?
@@ -27,7 +25,7 @@ Below are my notes for the course, I skipped 14-14.2 as I’ll be coming back to
 
 \*Disclaimer, the course content is owned and shared via CISCO Net Academy.
 
-## 1. Introduction
+## Introduction
 
 Learn Linux: fun, free and everywhere.
 
@@ -35,7 +33,7 @@ Linux: Open source kernel OS and used everywhere on everything
 
 Linux CLI: main user-interactive method.
 
-## 2. Basic Command Syntax
+## Basic Command Syntax
 
 CLI (Command Line Interface): powers low-power machines, servers or anything.
 
@@ -57,11 +55,11 @@ Command rules:
 
 `ls` lists files in directories.
 
-## 2.1 Arguments
+### Arguments
 
 Arguments specify the command output. `ls Documents` lists files in Documents directory.
 
-## 2.2 Options (switches)
+### Options (switches)
 
 Options alter the behaviour of command output. `ls -l Documents` or `ls Documents -l`
 
@@ -76,7 +74,7 @@ Multiple options (switches) can be used:
 - Use to be used with printers
 - `~` = `/home/user/`
 
-## 4. Changing Directories
+## Changing Directories
 
 Files store data e.g. text, graphics &amp; programs.
 
@@ -97,7 +95,7 @@ Filesystem is a map, paths are the directional steps. Two types:
 
 `~` home dir
 
-## 5. Listing Files
+## Listing Files
 
 `ls -l` lists files in actual list.
 
@@ -118,7 +116,7 @@ Sorting switches for `ls`
 
 `-r` reverse order
 
-## 6. Administrative Access
+## Administrative Access
 
 `su [options] [username]` temp act as other user via creating new shell aka change users.
 
@@ -131,7 +129,7 @@ Prompts change depending on user.
 
 - By default, `sudo` uses root.
 
-## 7. Permissions
+## Permissions
 
 Determines how users interact with files or dirs. `ls -l [filename]`
 
@@ -151,7 +149,7 @@ Determines how users interact with files or dirs. `ls -l [filename]`
     - File: run as process.
     - Dir: move dirs
 
-## 8. Changing File Permissions
+## Changing File Permissions
 
 - `chmod` changes file/dir permissions, only by root or owner. `chmod` comes from change mode of access.
 
@@ -168,7 +166,7 @@ Two techniques of `chmod`
 
 `./` indicates commands to run from current dir.
 
-## 9. Changing File Ownership
+## Changing File Ownership
 
 Owners of files are the creators of files.
 
@@ -176,7 +174,7 @@ Owners of files are the creators of files.
 
 `chown [OPTIONS] [OWNER] FILE` e.g. `chown root hello.sh`
 
-## 10. Viewing Files
+## Viewing Files
 
 `cat [OPTIONS] [FILE]` concatenate files i.e. good for smaller files.
 
@@ -188,17 +186,17 @@ Pager commands `more` and `less`.
 
 `-n` switch allows certain number of lines.
 
-## 11. Copying Files
+## Copying Files
 
 `cp [OPTIONS] SOURCE DESTINATION`
 
 Must have `x` perm to `cp` file and `w x` perms on destination dir, both `/tmp` and `~` will always have this.
 
-## 11.1 Copying Files
+### Copying Files
 
 - `dd [OPTIONS] OPERAND` copies files/partitions at bit level.
 
-## 12. Moving Files
+### Moving Files
 
 `mv SOURCE DESTINATION` moves files from one to another dir.
 
@@ -208,7 +206,7 @@ Must have `x` perm to `cp` file and `w x` perms on destination dir, both `/tmp` 
 
 `w x` perms needed on source/dest dirs.
 
-## 13. Removing Files
+## Removing Files
 
 `rm [OPTIONS] FILE` removes files (almost) permanently.
 
@@ -216,19 +214,23 @@ Must have `x` perm to `cp` file and `w x` perms on destination dir, both `/tmp` 
 
 `w x` perms needed to `rm` files/dirs.
 
-## 14. Filtering Input
+## Filtering Input
 
 `grep [OPTIONS] PATTERN [FILE]` filters search input from files.
 
-## 14.1 Regular Expressions
+### Regular Expressions
 
-## 14.2 Basic Patterns
+(Skipped)
 
-## 15. Shutting Down
+### Basic Patterns
+
+(Skipped)
+
+## Shutting Down
 
 `shutdown [OPTIONS] TIME [MESSAGE]` requires `date`
 
-## 16. Network Configuration
+## Network Configuration
 
 `ifconfig [OPTIONS]`
 
@@ -236,7 +238,7 @@ Must have `x` perm to `cp` file and `w x` perms on destination dir, both `/tmp` 
 
 `ping`
 
-## 17. Viewing Processes
+## Viewing Processes
 
 `ps [OPTIONS]` `-e` and `-f`
 
@@ -248,7 +250,7 @@ Must have `x` perm to `cp` file and `w x` perms on destination dir, both `/tmp` 
 
 `CMD` command started process.
 
-## 18. Package Management
+## Package Management
 
 System to install, update, querie or remove from filesystem.
 
@@ -260,13 +262,13 @@ Debian is the `dpkg` command but `apt-get` is front-end program.
 - Update system: `sudo apt-get update && upgrade`
 - Remove: `apt-get remove [package]` and `apt-get purge [package]`
 
-## 19. Updating User Passwords
+## Updating User Passwords
 
 `passwd [OPTIONS] [USER]` updates user passwords.
 
 - `-S` shows status info.
 
-## 20. Redirection
+## Redirection
 
 I/O redirection allows info from CL to be sent to file, device or other commands. Three file descripters:
 
@@ -280,7 +282,7 @@ I/O redirection allows info from CL to be sent to file, device or other commands
 
 User must have `w` perms of files to redirect too.
 
-## 21. Tex Editor
+## Tex Editor
 
 `vi` `vim` or `nano`
 

@@ -1,21 +1,21 @@
 ---
-id: 4054
 title: Linux Quick Start Guide
 author: Mr Ash
 type: "post"
-guid: https://mrash.co/?p=4054
+published: 2021-08-14
+lastUpdated: 2022-11-02
 url: "/linux-quick-start-guide/"
-primary_accent:
-- '#004CFF'
-secondary_accent:
-- '#FF9D00'
-ekit_post_views_count:
-- '731'
 image: https://images.unsplash.com/photo-1599227577308-4323e4e2c946?ixid=MnwxNTI0MzJ8MHwxfGFsbHx8fHx8fHx8fDE2Mjg5MTIxMzU&ixlib=rb-1.2.1&fm=jpg&q=85&fit=crop&w=2560&h=1704
-categories: "['Linux']"
+categories: 
+    - Cyber
+tags:
+    - Linux
+    - BASH
 ---
 
-<iframe frameborder="0" height="102px" loading="lazy" scrolling="no" src="https://anchor.fm/mrashleyball/embed/episodes/Linux-Quick-Start-Guide-e16j882" width="400px"></iframe>Learning Linux is fun! Beginning Linux is hard.
+<!-- <iframe frameborder="0" height="102px" loading="lazy" scrolling="no" src="https://anchor.fm/mrashleyball/embed/episodes/Linux-Quick-Start-Guide-e16j882" width="400px"></iframe> -->
+
+Learning Linux is fun! Beginning Linux is hard.
 
 There’s a lot of free courses and content to help you. But what about a quick start guide to Linux? Getting started with Linux made easy?
 
@@ -23,17 +23,17 @@ No fluff, just a quick and dirty setup to get you started with Linux basics! Wel
 
 *Disclaimer, this is an ongoing piece of content and is not finished.*
 
-## 0. Introduction
+## Introduction
 
 Linux is an open-source operating system with an interesting history and important philosophy.
 
-Linux is built from [UNIX](https://discourse.unixgame.io/t/what-are-the-differences-between-unix-and-linux/71) by [Ken Thompson](https://en.wikipedia.org/wiki/Ken_Thompson), [Dennis Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie) from AT&amp;T in 1970. This led to the [GNU project](https://www.gnu.org/) (free Unix-like OS) by [Richard Stallman](https://en.wikipedia.org/wiki/Richard_Stallman) in 1983 under the [GPL](https://en.wikipedia.org/wiki/GNU_General_Public_License), and then the first open-source Linux kernel by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) in 1991.
+Linux is built from [UNIX](https://discourse.unixgame.io/t/what-are-the-differences-between-unix-and-linux/71) by [Ken Thompson](https://en.wikipedia.org/wiki/Ken_Thompson), [Dennis Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie) from AT&T in 1970. This led to the [GNU project](https://www.gnu.org/) (free Unix-like OS) by [Richard Stallman](https://en.wikipedia.org/wiki/Richard_Stallman) in 1983 under the [GPL](https://en.wikipedia.org/wiki/GNU_General_Public_License), and then the first open-source Linux kernel by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) in 1991.
 
 The Linux Philosophy is simple, 1) everything is a file, 2) small, single-purpose programs, 3) chain programs together for complex tasks, 4) avoid captive user interfaces and 5) configuration data stored in a text file.
 
 Given its open-source nature, there are countless operating systems built on Linux known as Linux Distributions. [Ubuntu](https://ubuntu.com/) is generally considered the most beginner-friendly distro, see [this guide](https://mrash.co/how-to-setup-ubuntu-using-virtualbox/) for help setting up Linux virtually. This quick start guide refers to Debian-based commands, the UNIX ancestor of Ubuntu.
 
-## 1. Commands
+## Commands
 
 Linux embraces the Command Line Interface (CLI), so should you! Linux’s CLI or shell is called [Bourne Again Shell (BASH)](https://www.techopedia.com/definition/3520/bourne-again-shell-bash), we’ll use a [terminal emulator](https://en.wikipedia.org/wiki/Terminal_emulator) on Ubunutu (or your Linux Debian Distro) to interact with our computer.
 
@@ -47,11 +47,11 @@ Use `hostname` to display the device name and `whoami` to output your username. 
 
 `echo` is used to print or write something to the terminal, try `echo 'enter a sentence'`. It’s very useful to chain together with other commands later. Use the `up` and `down` arrows to cycle through previsouly used commands, `!!` to run last command or run `history` to see all used commands. Try `TAB` to auto-complete commands or arguments.
 
-## 2. Navigation
+## Navigation
 
 Let’s navigate the Linux filesystem, first use `pwd` to print working or current directory.
 
-Use `cd` to change directories and `ls` to list files in a directory. To specify what directory to navigate to, either use an **absolute** or **relative** path. An **absolute** path starts from the root directory, represented by `/` but a **relative** path \*\*\*\*starts from the current directory, represented by `.`.
+Use `cd` to change directories and `ls` to list files in a directory. To specify what directory to navigate to, either use an **absolute** or **relative** path. An **absolute** path starts from the root directory, represented by `/` but a **relative** path starts from the current directory, represented by `.`.
 
 You can use other short hand path navigaters like `..` for the parent directory or `~` for the user home directory. If lost, `cd ~` to go home and start again.
 
@@ -61,7 +61,7 @@ To copy a file or directory use `cp` but to move a file or directory, use `mv`. 
 
 Use `find` to find files in directories and `grep` to search through the content of a single file. You can also use `sort` and `unique` to filter through the content of files.
 
-## 3. System
+## System
 
 Now you’re moving around, let’s find out some information about your system.
 
@@ -75,13 +75,15 @@ A program running or being executed is known as a process. To see processes on y
 
 To turn off your system, use `shutdown now` or to restart, `reboot now`. You can also use these commands to shutdown/reboot at certain times, read the man pages.
 
-## 4. Permissions (Coming Soon)
+## Permissions 
 
-## 5. Networking (Coming Soon)
+(Coming Soon)
 
-- - - - - -
+## Networking 
 
-This is Day 17 of [\#100DaysOfHacking](https://mrash.co/100daysofhacking/), subscribe to my [newsletter](https://go.mrash.co/newsletter) to follow the journey!
+(Coming Soon)
+
+This is Day 17 of [#100DaysOfHacking](https://mrash.co/100daysofhacking/), subscribe to my [newsletter](https://go.mrash.co/newsletter) to follow the journey!
 
 If you have any feedback, please send me a message [@mrashleyball](https://twitter.com/mrashleyball).
 

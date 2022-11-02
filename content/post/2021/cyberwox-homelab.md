@@ -1,30 +1,32 @@
 ---
-id: 4061
-title: CyberWox&#8217;s Cyber Sec Homelab on Virtual Box
+title: CyberWox CyberSec Homelab on Virtual Box
 author: Mr Ash
 type: "post"
-guid: https://mrash.co/?p=4061
+published: 2021-08-21
+lastUpdated: 2022-11-02
 url: "/cyberwox-cybersec-homelab-virtual-box/"
-primary_accent:
-- '#004CFF'
-secondary_accent:
-- '#FF9D00'
-ekit_post_views_count:
-- '818'
-- '818'
 image: /wp-content/uploads/2021/08/pexels-photo-3861969.jpeg
-categories: "['Hacking']"
+categories:
+    - Cyber
+tags:
+    - Hacking
+    - Homelab
+    - Virtual Box
 ---
 
-<iframe frameborder="0" height="102px" loading="lazy" scrolling="no" src="https://anchor.fm/mrashleyball/embed/episodes/CyberWoxs-Cyber-Sec-Homelab-On-Virtual-Box-e16j8bl" width="400px"></iframe>Homelabs are fun, challenging, but fun.
+<!-- <iframe frameborder="0" height="102px" loading="lazy" scrolling="no" src="https://anchor.fm/mrashleyball/embed/episodes/CyberWoxs-Cyber-Sec-Homelab-On-Virtual-Box-e16j8bl" width="400px"></iframe> -->
+
+Homelabs are fun, challenging, but fun.
 
 Building an entire virtual network of interconnected computers to simulate real-world traffic and situations.
 
 This is my additional guide to [Cyberwox’s Building a Cybersecurity Homelab](https://www.cyberwoxacademy.com/post/building-a-cybersecurity-homelab), but, for those using VirtualBox. Here’s a visual guide for the lab:
 
-<iframe height="450" loading="lazy" src="https://whimsical.com/embed/7i8mayV9TtRetih9DFJoEt@2Ux7TurymNKHZLzUBNqw" style="border:none" width="800"></iframe>*Disclaimer, this does not contain 100% of the steps of this project.*
+<iframe height="450" loading="lazy" src="https://whimsical.com/embed/7i8mayV9TtRetih9DFJoEt@2Ux7TurymNKHZLzUBNqw" style="border:none" width="100%"></iframe>
 
-## 1. Intro
+\*Disclaimer, this does not contain 100% of the steps of this project.
+
+## Intro
 
 Ideally, use a dedicated lab computer for this, a spare laptop or an old gaming PC. Spec-wise, 4-8 Core CPU, 16-32Gb RAM, 500Gb+ HDD is recommended.
 
@@ -42,7 +44,7 @@ Lastly, get a license for [Splunk](https://dev.splunk.com/enterprise/), sign up 
 
 Something I noticed in the original tutorial, NAT adapters get used, I don’t think this is required. You’ll see below all the network adapter configs for each VM.
 
-## 2. Setup
+## Setup
 
 Open VBox and start creating VMs, use a logical nomenclature, like ‘lab1’ as a suffix e.g. l1-pfs, l1-kali etc. It keeps things organised.
 
@@ -57,12 +59,12 @@ Use the following settings:
 
 You’ll need to add extra NICs, you can add up to 4 using the GUI and 8 in total via CLI. Open CMD/PowerShell/Terminal, navigate to where VBox is installed and edit the NICs. Use the commands below to assist:
 
-- Change directories: `cd C:\\Program Files\\Oracle\\VirtualBox`
-- Show VM info: `.\\VBoxManage showvminfo l1-pfs`
-- Set nic5 to internal: `.\\VBoxManage modifyvm l1-pfs --nic5 intnet`
-- Set nic5 to l1-vlan: `.\\VBoxManage modifyvm l1-pfs --intnet5 l1-vlan`
-- Set nic6 to internal: `.\\VBoxManage modifyvm l1-pfs --nic6 intnet`
-- Set nic6 to l1-vlan: `.\\VBoxManage modifyvm l1-pfs --intnet6 l1-vlan`
+- Change directories: `cd C:\Program Files\Oracle\VirtualBox`
+- Show VM info: `.\VBoxManage showvminfo l1-pfs`
+- Set nic5 to internal: `.\VBoxManage modifyvm l1-pfs --nic5 intnet`
+- Set nic5 to l1-vlan: `.\VBoxManage modifyvm l1-pfs --intnet5 l1-vlan`
+- Set nic6 to internal: `.\VBoxManage modifyvm l1-pfs --nic6 intnet`
+- Set nic6 to l1-vlan: `.\VBoxManage modifyvm l1-pfs --intnet6 l1-vlan`
 
 Once the NICs are turned on, they can be edited via GUI of the VM.
 
@@ -109,16 +111,13 @@ I put the above in a bash script, added a line to execute splunk and then in cro
 
 - Create file `nano ip-config`
 
-```
-<pre class="wp-block-code">```
+```bash
 #!bin/bash
 
 sudo ifconfig enp0s8 192.168.4.10 netmask 255.255.255.0
 sudo route add default gw 192.168.4.1 enp0s8
 
 ./home/splunk-admin/Downloads/splunk/bin/splunk start
-
-```
 ```
 
 - Make executable `chmod +x ip-config`
@@ -141,12 +140,6 @@ Thanks to [ByteFreaks](https://bytefreaks.net/gnulinux/how-to-set-a-static-ip-ad
 - Specs: 2Gb RAM, 2 Core CPU, 25Gb HDD
 - NIC: Adapter 1, Internal, l1-vlan3
 - IP: 192.168.2.11-12, Gateway: 192.168.2.1
-
-## 3. Reflection (Coming Soon)
-
-I’ll add some more information here soon.
-
-- - - - - -
 
 This is Day 18 of [\#100DaysOfHacking](https://mrash.co/100daysofhacking/), subscribe to my [newsletter](https://go.mrash.co/newsletter) to follow the journey!
 
