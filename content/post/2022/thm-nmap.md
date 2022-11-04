@@ -1,20 +1,15 @@
 ---
-id: 4962
 title: TryHackMe Nmap Room Notes
 author: Mr Ash
 type: "post"
-guid: https://mrash.co/?p=4962
+published: 2022-03-12
+lastUpdated: 2022-11-04
 url: "/tryhackme-nmap-room-notes/"
-primary_accent:
-- '#004CFF'
-secondary_accent:
-- '#FF9D00'
-ekit_post_views_count:
-- '331'
-fifu_image_url:
-- https://p146.p4.n0.cdn.getcloudapp.com/items/X6uEAEkx/1eadb440-2474-4e54-aa4b-8d44ba446101.jpeg?v=66cc324e4f0c17fcae9c0502df29cfe4
 image: https://p146.p4.n0.cdn.getcloudapp.com/items/X6uEAEkx/1eadb440-2474-4e54-aa4b-8d44ba446101.jpeg?v=66cc324e4f0c17fcae9c0502df29cfe4
-categories: "['Hacking']"
+categories: Cyber
+tags:
+    - Hacking
+    - TryHackMe
 ---
 
 Are you going through TryHackMe’s Nmap Room? Did you forget to take notes? I got you covered. Here are my Nmap room notes from TryHackMe, use them as much as you need!

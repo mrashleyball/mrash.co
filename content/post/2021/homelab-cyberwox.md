@@ -9,9 +9,8 @@ image: /wp-content/uploads/2021/08/pexels-photo-3861969.jpeg
 categories:
     - Cyber
 tags:
-    - Hacking
     - Homelab
-    - Virtual Box
+    - Networking
 ---
 
 <!-- <iframe frameborder="0" height="102px" loading="lazy" scrolling="no" src="https://anchor.fm/mrashleyball/embed/episodes/CyberWoxs-Cyber-Sec-Homelab-On-Virtual-Box-e16j8bl" width="400px"></iframe> -->

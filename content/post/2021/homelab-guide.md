@@ -1,21 +1,20 @@
 ---
-id: 4746
 title: "Homelabs \u2022 Beginner&#8217;s Guide To Homelabbing"
 author: Mr Ash
 type: "post"
-guid: https://mrash.co/?p=4746
+published: 2021-11-07
+lastUpdated: 2022-11-04
 url: "/homelabs-beginners-guide-to-homelabbing/"
-primary_accent:
-- '#004CFF'
-secondary_accent:
-- '#FF9D00'
-ekit_post_views_count:
-- '479'
 image: https://images.unsplash.com/flagged/photo-1579274216947-86eaa4b00475?ixid=MnwxNTI0MzJ8MHwxfGFsbHx8fHx8fHx8fDE2MzYyNzM2OTg&ixlib=rb-1.2.1&fm=jpg&q=85&fit=crop&w=1440&h=2560
-categories: "['Hacking']"
+categories: Cyber 
+tags:
+    - Homelab
+    - Networking
 ---
 
-<iframe frameborder="0" height="102px" loading="lazy" scrolling="no" src="https://anchor.fm/mrashleyball/embed/episodes/Homelabs--Beginners-Guide-To-Homelabbing-e19st0r" width="400px"></iframe>You are probably new to homelabbing and need a bit of guidance. Building a homelab means building a computer network, or lab, at home.
+<!-- <iframe frameborder="0" height="102px" loading="lazy" scrolling="no" src="https://anchor.fm/mrashleyball/embed/episodes/Homelabs--Beginners-Guide-To-Homelabbing-e19st0r" width="400px"></iframe> -->
+
+You are probably new to homelabbing and need a bit of guidance. Building a homelab means building a computer network, or lab, at home.
 
 Homelabs can be anything from old laptops to expensive high-end enterprise equipment.
 

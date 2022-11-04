@@ -1,27 +1,28 @@
 ---
-id: 4722
-title: "ZigZag \u2022 Beginner Python Project"
+title: "ZigZag - Beginner Python Project"
 author: Mr Ash
 type: "post"
-guid: https://mrash.co/?p=4722
+published: 2021-10-19
+lastUpdated: 2022-11-04
 url: "/zigzag-beginner-python-project/"
-primary_accent:
-- '#004CFF'
-secondary_accent:
-- '#FF9D00'
-ekit_post_views_count:
-- '501'
 image: /wp-content/uploads/2021/10/background.jpg
-categories: "['Programming']"
+categories: Programming
+tags:
+    - Python
+    - Automate The Boring Stuff
 ---
 
-<iframe frameborder="0" height="102px" loading="lazy" scrolling="no" src="https://anchor.fm/mrashleyball/embed/episodes/ZigZag--Beginner-Python-Project-e1906et" width="400px"></iframe>Let’s learn some Python!
+<!-- <iframe frameborder="0" height="102px" loading="lazy" scrolling="no" src="https://anchor.fm/mrashleyball/embed/episodes/ZigZag--Beginner-Python-Project-e1906et" width="400px"></iframe> -->
+
+Let’s learn some Python!
 
 Want an easy python program to get started? Here’s zigzag.
 
 This program is from [Automate The Boring Stuff With Python Chapter 3](https://automatetheboringstuff.com/2e/chapter3/), under A Short Program: Zigzag.
 
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper"><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="450" loading="lazy" src="https://www.youtube.com/embed/ZUcippDDBh8?feature=oembed" title="Zig Zag • Beginner Python Project • Automate The Boing Stuff With Python • Study Session #3 (lofi)" width="800"></iframe></div></figure>Welcome to my third study session to learn Python Programming! The video above covers the entire process of copying the zig zag program from Automate The Boring Stuff With Python.
+<!-- <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper"><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="450" loading="lazy" src="https://www.youtube.com/embed/ZUcippDDBh8?feature=oembed" title="Zig Zag • Beginner Python Project • Automate The Boing Stuff With Python • Study Session #3 (lofi)" width="800"></iframe></div></figure> -->
+
+Welcome to my third study session to learn Python Programming! The video above covers the entire process of copying the zig zag program from Automate The Boring Stuff With Python.
 
 See [Built-in Functions](https://docs.python.org/3.4/library/functions.html#print), [Time access and conversions](https://docs.python.org/3/library/time.html) and [What does end=’ ‘ exactly do?](https://stackoverflow.com/questions/20372485/what-does-end-exactly-do)
 
@@ -29,8 +30,7 @@ See [Built-in Functions](https://docs.python.org/3.4/library/functions.html#prin
 
 See the complete program below, feel free to copy this.
 
-```
-<pre class="wp-block-code">```
+```python
 import time,sys 
 indent = 0 # Amount of spaces to indent
 indentIncreasing = True # Increase or not
@@ -56,13 +56,11 @@ try:
                 indentIncreasing = True
 except KeyboardInterrupt:
     sys.exit()
-
-```
 ```
 
 For a full writeup and breakdown of each stage in the program, see the official [A Short Program: Zigzag](https://automatetheboringstuff.com/2e/chapter3/).
 
-## 2. Reflection
+## Reflection
 
 This was a really quick and easy program to copy and deconstruct, it’s worth doing it yourself.
 
@@ -74,4 +72,6 @@ I still don’t have a complete grasp on the line `print(' ' * indent, end='')` 
 
 This short program reminded me of the start of [CS50x](https://cs50.harvard.edu/), a fantastic computer science course! I started it and failed to program, so I’ll be going back to that in the future. This program and learning Python, in general, is giving me the confidence to do it!
 
-This is Day 27 of [\#100DaysOfHacking](https://mrash.co/100daysofhacking/), subscribe to the [newsletter](https://go.mrash.co/newsletter) for updates and if you have feedback, message me via [Twitter](https://twitter.com/mrashleyball). Happy Hacking.
+This is Day 27 of [#100DaysOfHacking](https://mrash.co/100daysofhacking/), subscribe to the [newsletter](https://go.mrash.co/newsletter) for updates and if you have feedback, message me via [Twitter](https://twitter.com/mrashleyball). Happy Hacking.
+
+{{<youtube ZUcippDDBh8>}}

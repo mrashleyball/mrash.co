@@ -1,36 +1,36 @@
 ---
-id: 4712
 title: "Random Number Generator \u2022 Easy Python Project"
 author: Mr Ash
 type: "post"
-guid: https://mrash.co/?p=4712
+published: 2021-10-17
+lastUpdated: 2022-11-04
 url: "/random-number-generator-easy-python-project/"
-primary_accent:
-- '#004CFF'
-secondary_accent:
-- '#FF9D00'
-ekit_post_views_count:
-- '470'
 image: https://images.unsplash.com/photo-1502570149819-b2260483d302?ixid=MnwxNTI0MzJ8MHwxfGFsbHx8fHx8fHx8fDE2MzQ0MTU0OTM&ixlib=rb-1.2.1&fm=jpg&q=85&fit=crop&w=2560&h=1707
-categories: "['Programming']"
+categories: Programming
+tags:
+    - Python
+    - Automate The Boring Stuff
 ---
 
-<iframe frameborder="0" height="102px" loading="lazy" scrolling="no" src="https://anchor.fm/mrashleyball/embed/episodes/Random-Number-Generator--Easy-Python-Project-e18sqms" width="400px"></iframe>Want an easy python project to get you started learning python?
+<!-- <iframe frameborder="0" height="102px" loading="lazy" scrolling="no" src="https://anchor.fm/mrashleyball/embed/episodes/Random-Number-Generator--Easy-Python-Project-e18sqms" width="400px"></iframe> -->
+
+Want an easy python project to get you started learning python?
 
 Here’s a random number generator built-in python!
 
 See the project live below or via [GitHub](https://github.com/mrashleyball/Random-Number-Generator).
 
-<iframe frameborder="0" height="500px" loading="lazy" src="https://replit.com/@mrashleyball/Random-Number-Generator?lite=true" width="100%"></iframe>Okay, let’s build your very own number generator python program.
+<iframe frameborder="0" height="500px" loading="lazy" src="https://replit.com/@mrashleyball/Random-Number-Generator?lite=true" width="100%"></iframe>
 
-## 1. Foundation
+Okay, let’s build your very own number generator python program.
+
+## Foundation
 
 Let’s write the program in stages.
 
 But first, it’s recommended to write out pseudo code as it helps to map out and plan the program before you deep dive into writing it.
 
-```
-<pre class="wp-block-code">```
+```python
 # Random Number Generator
 
 # 0 Import module
@@ -39,31 +39,25 @@ But first, it’s recommended to write out pseudo code as it helps to map out an
 # 3 Handle error messages i.e user inputs strings
 # 4 Create random number
 # 5 Display random number
-
-```
 ```
 
 Okay, here’s stage one.
 
-```
-<pre class="wp-block-code">```
+```python
 import random
 
 number = random.randrange(1,10)
 
 print('Your random number is: ' + str(number))
-
-```
 ```
 
 Import the random module to allow for random numbers, then assign a random number between 1 and 10 to the variable number. Lastly, display a concatenated string with the variable number converted into a string.
 
-## 2. Adding User Input
+## Adding User Input
 
 Now let’s beef it up a bit and get user input.
 
-```
-<pre class="wp-block-code">```
+```python
 import random
 
 startNumber = int(input('Select your starting number: '))
@@ -72,13 +66,11 @@ endNumber = int(input('Select your end number: '))
 number = random.randrange(startNumber,endNumber)
 
 print('Your random number is: ' + str(number))
-
-```
 ```
 
 Here are two more variables, `startNumber` and `endNumber`, they both ask for user input which is passed through the integer conversion function.
 
-## 3. Validating User Input
+## Validating User Input
 
 Asking for user input is great, but how do we validate that user input?
 
@@ -86,8 +78,7 @@ First, create a `while` loop set to `True` this means it will continue in a loop
 
 Then it’s a case of giving `print()` messages based on what they’ve done wrong. Do this with `if` and `elif` statements, one for numbers less than zero, if numbers are the same and the start number higher than the end number.
 
-```
-<pre class="wp-block-code">```
+```python
 import random
 
 while True:
@@ -104,18 +95,15 @@ while True:
 
 number = random.randrange(startNumber,endNumber)
 print('Your random number is: ' + str(number))
-
-```
 ```
 
-## 4. Handling Error Messages
+## Handling Error Messages
 
 What is the user types in letters, not numbers?
 
 Because we’re passing the `input()` through an `int()` conversion, then strings, or letters, will produce a `ValueError`. So to handle error messages without the program crashing and closing, we can use `try` and `except`.
 
-```
-<pre class="wp-block-code">```
+```python
 import random
 
 while True:
@@ -142,13 +130,11 @@ while True:
 
 number = random.randrange(startNumber,endNumber)
 print('Your random number between ' + str(startNumber) + ' and ' + str(endNumber) + ' is: ' + str(number))
-
-```
 ```
 
 Oh, and for the last display message showing the random number, also update it to incldue both the starting and ending number.
 
-## 5. Reflection
+## Reflection
 
 The idea of this mini-program came from a guessing game that uses the same random module.
 

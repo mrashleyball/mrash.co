@@ -1,20 +1,15 @@
 ---
-id: 4847
 title: CompTIA A+ Study Notes (220-1101)
 author: Mr Ash
 type: "post"
-guid: https://mrash.co/?p=4847
+published: 2022-02-16
+lastUpdated: 2022-11-04
 url: "/comptia-a-plus-study-notes/"
-primary_accent:
-- '#004CFF'
-secondary_accent:
-- '#FF9D00'
-ekit_post_views_count:
-- '392'
-fifu_image_url:
-- https://p146.p4.n0.cdn.getcloudapp.com/items/JruOxNxo/0f9b2cc4-9848-4e05-8f80-d9dd97cd098c.jpeg?v=cf9d6651180084ddc6af64edf99bdcc1
 image: https://p146.p4.n0.cdn.getcloudapp.com/items/JruOxNxo/0f9b2cc4-9848-4e05-8f80-d9dd97cd098c.jpeg?v=cf9d6651180084ddc6af64edf99bdcc1
-categories: "['Cyber', 'Hardware']"
+categories: Cyber
+tags:
+    - Networking 
+    - Notes
 ---
 
 ## Installing Hardware &amp; Display Components
@@ -27,7 +22,7 @@ categories: "['Cyber', 'Hardware']"
 - GPU/Video Card: processes video and connects to external monitors.
 - CPU: brain of PC.
 
-DC Jack Replacement Research – https://youtu.be/zFuu8LSaAQE
+DC Jack Replacement Research – [https://youtu.be/zFuu8LSaAQE](https://youtu.be/zFuu8LSaAQE)
 
 ### Hard Drive Migration
 
@@ -48,7 +43,7 @@ mSATA: mini Serial Advanced Technology Attachment
 - USB: no cables, no install, no upgrade needed.
 - Bluetooth: peripharel, personal area network (pan), PC (PCMCIA) card/slot, USB dongle.
 - Mini PCI: 124-pin edge connector, square shape, older.
-- \*Mini PCIe: 54-pin. rectangular, any device on architecture works.
+- Mini PCIe: 54-pin. rectangular, any device on architecture works.
 - Cellular: anywhere access, built-in mobile broadband, USB.
 - Replacing: turn off, remove card, remove screws. Reverse process to complete.
 

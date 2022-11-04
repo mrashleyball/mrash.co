@@ -1,27 +1,23 @@
 ---
-id: 4826
-title: How To Build A PC 2022
+title: How To Build A PC
 author: Mr Ash
 type: "post"
-guid: https://mrash.co/?p=4826
+published: 2022-01-29
+lastUpdated: 2022-11-04
 url: "/how-to-build-a-pc-2022/"
-primary_accent:
-- '#004CFF'
-secondary_accent:
-- '#FF9D00'
-ekit_post_views_count:
-- '358'
-fifu_image_url:
-- https://p146.p4.n0.cdn.getcloudapp.com/items/2NuzlRlo/00465411-cf21-4fe7-b6d8-430d2721bf61.jpeg?v=e7a9ee15e574fafde52051db4b6f392a
 image: https://p146.p4.n0.cdn.getcloudapp.com/items/2NuzlRlo/00465411-cf21-4fe7-b6d8-430d2721bf61.jpeg?v=e7a9ee15e574fafde52051db4b6f392a
-categories: "['Cyber', 'Hardware']"
+categories: Cyber
+tags:
+    - Hardware
 ---
 
-<iframe frameborder="0" height="102px" loading="lazy" scrolling="no" src="https://anchor.fm/mrashleyball/embed/episodes/How-To-Build-A-PC-2022-e1djobg" width="400px"></iframe>Are you new to PC building? Maybe a friend’s put together their computer and you want to learn more. Whatever your reason, building your own PC is a lot of fun! So, let’s learn how to build a PC in 2022, this is your beginner’s guide to building a PC.
+<!-- <iframe frameborder="0" height="102px" loading="lazy" scrolling="no" src="https://anchor.fm/mrashleyball/embed/episodes/How-To-Build-A-PC-2022-e1djobg" width="400px"></iframe> -->
+
+Are you new to PC building? Maybe a friend’s put together their computer and you want to learn more. Whatever your reason, building your own PC is a lot of fun! So, let’s learn how to build a PC in 2022, this is your beginner’s guide to building a PC.
 
 *Disclaimer, this is not a step-by-step article, but more of a general guide to approaching how to build a PC. I am not an expert, please check with a professional before buying anything.*
 
-## 1. Goal, Budget &amp; Expectations
+## Goal, Budget and Expectations
 
 First and foremost, have a clear reason why you want a PC and what you need it for. It’s going to help with part selection, so make sure you understand your use case. Some reasons may be work, school, gaming, video editing, game development, programming or more.
 
@@ -29,7 +25,7 @@ Second, you need a budget, some sort of dollar amount when purchasing parts. Thi
 
 Thirdly, expect to compromise as the PC market is ever-changing. Certain parts might be in a [worldwide shortage](https://www.theguardian.com/books/2021/aug/27/chipageddon-how-a-global-tech-crisis-came-to-sound-quite-tasty), crypto miners may [surge prices](https://www.economist.com/graphic-detail/2021/06/19/crypto-miners-are-probably-to-blame-for-the-graphics-chip-shortage) or vendors may just not have stock. Go into the building process with an open mind and listen to experienced PC builders. There’s a lot of insider knowledge, so read forums, ask questions at your local PC store and either work colleagues or friends you have in the IT industry.
 
-## 2. PC Parts – Definitions &amp; Considerations
+## PC Parts – Definitions and Considerations
 
 Before selecting anything, you need a basic understanding of each PC part. Let’s discuss what each part is, considerations on selecting parts and how they connect to each other. Note, this does not cover every possible element of selecting parts, but the basics to get started.
 
@@ -44,7 +40,7 @@ Before selecting anything, you need a basic understanding of each PC part. Let�
 
 Note, almost all parts have various brands and manufacturers who make the same or similar parts. This can cause an overwhelming amount of choices for a single part. Take your time and go back to what you need to clarify what you’re looking for.
 
-## 3. Selecting &amp; Purchasing Parts
+## Selecting and Purchasing Parts
 
 There’s no exact method for selecting parts, you might find a great deal on something which becomes your focal part and build around that. You might have some parts given to you that you want to incorporate into the build.
 
@@ -65,7 +61,7 @@ Once you’ve got a part list together, it’s time to look closer at each part,
 
 If you’re starting to feel happy with the build, it’s a good time to check availability. You can purchase PC parts from online retailers like Amazon and eBay or find a local PC shop by searching “pc parts {local suburb}”. It’s not required but recommended to purchase parts from a single location or store, this make’s life easier in case of warranty claims or low product availability.
 
-## 4. Building Your PC
+## Building Your PC
 
 There are many step-by-step guides out there on the inter-webs to follow, this isn’t one. However, here are some ideas to consider when building your PC.
 
@@ -83,7 +79,7 @@ There are many step-by-step guides out there on the inter-webs to follow, this i
 
 As you finish up, it’s your choice to keep the original packaging of your parts for warranty purposes. It does make life easier if you have to return anything, to put it back in the box it came and send it off.
 
-## 5. An Example PC Build
+## PC Example Build
 
 Lastly, let’s look at [an example build](https://pcpartpicker.com/list/gwhPxs) for a better look at the process in action. These are my personal PC parts I’ve selected that inspired this article.
 

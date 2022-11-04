@@ -1,27 +1,26 @@
 ---
-id: 4776
 title: "2021 Review \u2022 2022 Plan"
 author: Mr Ash
 type: "post"
-guid: https://mrash.co/?p=4776
+published: 2022-01-22
+lastUpdated: 2022-11-04
 url: "/2021-review-2022-plan/"
-primary_accent:
-- '#004CFF'
-secondary_accent:
-- '#FF9D00'
-ekit_post_views_count:
-- '356'
 image: /wp-content/uploads/2022/01/270799717_474210737634913_4162806776516902679_n-scaled.jpg
-categories: "['Events', 'Work-life']"
+categories: Work-life
+tags:
+    - Events
+    - Annual Review
 ---
 
-<iframe frameborder="0" height="102px" loading="lazy" scrolling="no" src="https://anchor.fm/mrashleyball/embed/episodes/2021-Review--2022-Plan-e1d9b9a" width="400px"></iframe>Here we are again, another year come and gone. Let’s look back at the lessons learned and mistakes made.
+<!-- <iframe frameborder="0" height="102px" loading="lazy" scrolling="no" src="https://anchor.fm/mrashleyball/embed/episodes/2021-Review--2022-Plan-e1d9b9a" width="400px"></iframe> -->
+
+Here we are again, another year come and gone. Let’s look back at the lessons learned and mistakes made.
 
 All up, it’s been a big year, we’ve all been redefining ‘normal’ post-[2020](https://mrash.co/yearly-review-2020/). There’s been more division over the concern for safety and I genuinely hope you and your family are safe and well, thanks for reading this.
 
 *Disclaimer, this is a self-indulgent article and will not be value-focused. Since [2019](https://mrash.co/2019-in-review/), I’ve written yearly recaps as an exercise to be more intentional and increase personal growth.*
 
-## **1. 2021 Review**
+## 2021 Review
 
 Here’s a list of some events from 2021, for a full list of events, see [all newsletters](https://mrash.co/newsletters/).
 
@@ -33,7 +32,7 @@ Here’s a list of some events from 2021, for a full list of events, see [all ne
 - [Nov](https://mrash.co/letter/lets-write-nov-21/): Announced job change and moved house.
 - Dec: Renovations, holidays with family, stay-cation and lots of video games.
 
-## **2. Job**
+## Job
 
 Ah, my day job, an IT Teacher. I honestly love my job, I’m extremely grateful to my peers and the students who make the workplace what it is.
 
@@ -45,7 +44,7 @@ I learnt I can’t please everyone, but I can help with impact. I tried to help 
 
 It’s been a crazy 3 years since I started teaching in 2018, I’ve grown so much and had the honour of teaching 100+ students. I’m thankful for the mentorship, friendship and lessons imparted from my teammates. It’s been a rollercoaster and I’m grateful for it all.
 
-## **3. Website**
+## Website
 
 This brings me to this website, the one you’re on, [Mr Ash.co](https://mrash.co/). This is my learning sandbox and an excuse for Professional Development.
 
@@ -57,7 +56,7 @@ I realised the importance of blogging and publishing content consistently to imp
 
 I also started [\#100DaysOfHacking](https://mrash.co/100daysofhacking/), I pick a Cyber Sec topic, learn it and then write a tutorial blog post to help someone else. It’s been a lot of fun! It’s led me to start learning [Cyber Security](https://mrash.co/starting-out-in-cyber-security/), [Programming with Python](https://mrash.co/intro-to-python-free-python-starter-guide/), [Homelabbing](https://mrash.co/homelabs-beginners-guide-to-homelabbing/) and [more](https://mrash.co/category/cyber/hacking/).
 
-## **4. Friends, Family and More**
+## Friends, Family and More
 
 We were lucky enough to go to Sydney for a week and see my wife’s favourite musical, Hamilton. It was amazing and we loved exploring the city together. We went to the Gold Coast with her side of the family which was nice. There was a lock-down in the middle of it sadly but there was a pool, spa and we could still get take-away from amazing restaurants so it wasn’t bad.
 
@@ -71,7 +70,7 @@ Come Dec, we moved houses, all the way across the lawn, ha! My wife and I lived 
 
 Pair that with starting my new job and it’s exciting! Moving online full-time brings its pros and cons as most decisions do in life. I’m keen to work from home with flexible arrangements, so I’ll be up early to kick off each day.
 
-## **5. 2022 Plan**
+## 2022 Plan
 
 To help move forward into the new year, here’s my annual plan:
 
