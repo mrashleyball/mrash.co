@@ -1,16 +1,15 @@
 ---
-id: 5505
 title: CS50P Problem Set Guide
 author: Mr Ash
 type: "post"
-guid: https://mrash.co/?p=5505
+published: 2022-07-17
+lastUpdated: 2022-11-05
 url: "/cs50-python-problem-set-guide/"
-fifu_image_url:
-- https://p146.p4.n0.cdn.getcloudapp.com/items/ApuJqjpQ/00d66ae7-9d96-44e0-9459-3fc3f4fae991.jpeg?v=60d7c8ba4915850993c1d0f2bdf76cf4
-ekit_post_views_count:
-- '344'
 image: https://p146.p4.n0.cdn.getcloudapp.com/items/ApuJqjpQ/00d66ae7-9d96-44e0-9459-3fc3f4fae991.jpeg?v=60d7c8ba4915850993c1d0f2bdf76cf4
-categories: "['Programming']"
+categories: Programming
+tags:
+    - CS50P
+    - Python
 ---
 
 Hello, world and welcome, this is a breakdown, or guide, to the problem sets (psets) to [CS50’s Introduction to Programming with Python (CS50P)](https://cs50.harvard.edu/python/).
@@ -21,7 +20,7 @@ For me learning Cyber Security, I’m fascinated with the abilities programming 
 
 *Disclaimer, following CS50’s [Academic Honesty](https://cs50.harvard.edu/python/2022/honesty/), this article will be written as if you’ve asked for help and therefore will not show my code. However, I will share thoughts and Python constructs that helped me solve each one. PS, big shoutout to the CS50 community on Discord for their help, lots of amazing people there. PSS, I’m a fellow student, I’m not a professional nor do I claim my code is of any standard, code your way.*
 
-## **0. Functions, Variables**
+## Functions, Variables
 
 Most of the starting psets involve functions such as `input()`, `print()` and a single variable.
 
@@ -37,7 +36,7 @@ Let’s take a look at Week 0:
 
 **[Tip Calculator](https://cs50.harvard.edu/python/2022/psets/0/tip/)**: this one escalates quickly imo, well for me anyway. I completed this pset within 20 lines of code, and multiple variables and defined the 3 recommended custom functions. You’ll need to strip and convert user input before returning the custom functions. Lastly, you’ll need to apply a simple math equation to get the correct percent.
 
-## **1. Conditionals**
+## Conditionals
 
 Next up are conditions, let’s tackle the psets for Week 1:
 
@@ -45,7 +44,7 @@ Next up are conditions, let’s tackle the psets for Week 1:
 
 **[Home Federal Savings Bank](https://cs50.harvard.edu/python/2022/psets/1/bank/)**: a bit longer than `deep` at 7-8 lines of code and similar in logic, `bank` takes some more `elif` statements. Remember, if you want to use a character that python relies on, use `\\` to force it e.g. `'What\\'s up?'`.
 
-<div class="elementor elementor-5483" data-elementor-id="5483" data-elementor-type="section"><div class="elementor-section-wrap"> <section class="elementor-section elementor-top-section elementor-element elementor-element-32d8c94 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-element_type="section" data-id="32d8c94" data-particle-mobile-disabled="false" data-particle_enable="false" data-settings="{"ekit_has_onepagescroll_dot":"yes"}"><div class="elementor-container elementor-column-gap-default"><div class="elementor-row"><div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5e7c56e" data-element_type="column" data-id="5e7c56e"><div class="elementor-column-wrap elementor-element-populated"><div class="elementor-widget-wrap"> <section class="elementor-section elementor-inner-section elementor-element elementor-element-fc64076 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-element_type="section" data-id="fc64076" data-particle-mobile-disabled="false" data-particle_enable="false" data-settings="{"ekit_has_onepagescroll_dot":"yes"}"><div class="elementor-container elementor-column-gap-no"><div class="elementor-row"><div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-f7d6b37" data-element_type="column" data-id="f7d6b37"><div class="elementor-column-wrap elementor-element-populated"><div class="elementor-widget-wrap"><div class="elementor-element elementor-element-4c75247 elementor-widget elementor-widget-text-editor" data-element_type="widget" data-id="4c75247" data-settings="{"ekit_we_effect_on":"none"}" data-widget_type="text-editor.default"><div class="elementor-widget-container"><div class="elementor-text-editor elementor-clearfix">Recent Posts
+<!-- <div class="elementor elementor-5483" data-elementor-id="5483" data-elementor-type="section"><div class="elementor-section-wrap"> <section class="elementor-section elementor-top-section elementor-element elementor-element-32d8c94 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-element_type="section" data-id="32d8c94" data-particle-mobile-disabled="false" data-particle_enable="false" data-settings="{"ekit_has_onepagescroll_dot":"yes"}"><div class="elementor-container elementor-column-gap-default"><div class="elementor-row"><div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5e7c56e" data-element_type="column" data-id="5e7c56e"><div class="elementor-column-wrap elementor-element-populated"><div class="elementor-widget-wrap"> <section class="elementor-section elementor-inner-section elementor-element elementor-element-fc64076 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-element_type="section" data-id="fc64076" data-particle-mobile-disabled="false" data-particle_enable="false" data-settings="{"ekit_has_onepagescroll_dot":"yes"}"><div class="elementor-container elementor-column-gap-no"><div class="elementor-row"><div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-f7d6b37" data-element_type="column" data-id="f7d6b37"><div class="elementor-column-wrap elementor-element-populated"><div class="elementor-widget-wrap"><div class="elementor-element elementor-element-4c75247 elementor-widget elementor-widget-text-editor" data-element_type="widget" data-id="4c75247" data-settings="{"ekit_we_effect_on":"none"}" data-widget_type="text-editor.default"><div class="elementor-widget-container"><div class="elementor-text-editor elementor-clearfix">Recent Posts
 
  </div> </div> </div><div class="elementor-element elementor-element-322ad34 elementor-widget elementor-widget-elementskit-post-list" data-element_type="widget" data-id="322ad34" data-settings="{"ekit_we_effect_on":"none"}" data-widget_type="elementskit-post-list.default"><div class="elementor-widget-container"><div class="ekit-wid-con">- [ <span class="elementor-icon-list-icon">  </span><div class="ekit_post_list_content_wraper"> <span class="elementor-icon-list-text">How To Fix TryHackMe VPN Not Working | Troubleshooting OpenVPN</span> </div> ](https://mrash.co/how-to-fix-tryhackme-vpn-not-working-troubleshooting-openvpn/)
 - [ <span class="elementor-icon-list-icon">  </span><div class="ekit_post_list_content_wraper"> <span class="elementor-icon-list-text">Crack The Hash TryHackMe Walkthrough</span> </div> ](https://mrash.co/crack-the-hash-tryhackme-walkthrough/)
@@ -57,15 +56,17 @@ Next up are conditions, let’s tackle the psets for Week 1:
 - [ <span class="elementor-icon-list-icon">  </span><div class="ekit_post_list_content_wraper"> <span class="elementor-icon-list-text">100 Days Of Hacking</span> </div> ](https://mrash.co/100daysofhacking/)
 - [ <span class="elementor-icon-list-icon">  </span><div class="ekit_post_list_content_wraper"> <span class="elementor-icon-list-text">Hackers Learning Path</span> </div> ](https://mrash.co/learning-path-for-beginner-hacker/)
  
- </div> </div> </div> </div> </div> </div> </div> </div> </section><div class="elementor-element elementor-element-2763e2a elementor-widget elementor-widget-text-editor" data-element_type="widget" data-id="2763e2a" data-settings="{"ekit_we_effect_on":"none"}" data-widget_type="text-editor.default"><div class="elementor-widget-container"><div class="elementor-text-editor elementor-clearfix">\*Shamless self-promotion, I know.
+ </div> </div> </div> </div> </div> </div> </div> </div> </section><div class="elementor-element elementor-element-2763e2a elementor-widget elementor-widget-text-editor" data-element_type="widget" data-id="2763e2a" data-settings="{"ekit_we_effect_on":"none"}" data-widget_type="text-editor.default"><div class="elementor-widget-container"><div class="elementor-text-editor elementor-clearfix">\*Shamless self-promotion, I know. -->
 
- </div> </div> </div> </div> </div> </div> </div> </div> </section> </div> </div>**[File Extensions](https://cs50.harvard.edu/python/2022/psets/1/extensions/)**: ~15 lines of code can work for this pset, I used a lot of `elif` statements with a specific string method to check the end of the user input.
+ <!-- </div> </div> </div> </div> </div> </div> </div> </div> </section> </div> </div> -->
+ 
+ **[File Extensions](https://cs50.harvard.edu/python/2022/psets/1/extensions/)**: ~15 lines of code can work for this pset, I used a lot of `elif` statements with a specific string method to check the end of the user input.
 
 **[Math Interpreter](https://cs50.harvard.edu/python/2022/psets/1/interpreter/#math-interpreter)**: takes about 15 lines like extensions, similar in logic but I used a few more variables. For help, take the user input, assign them to variables and then perform some conditional logic with the math operators. You can assign multiple variables at once and use the `str.split()` function so they’re assigned correctly.
 
 **[Meal Time](https://cs50.harvard.edu/python/2022/psets/1/meal/#meal-time)**: this is good to go on from math as it builds upon the same concepts like assigning multiple variables at once. You’ll need a couple more variables to make this pset work along with the condition, of course.
 
-## **2. Loops**
+## Loops
 
 Python has a powerful set of constructs to repeat or iterate values we pass to it.
 
@@ -81,7 +82,7 @@ Let’s look at Week 2:
 
 **[Nutrition Facts](https://cs50.harvard.edu/python/2022/psets/2/nutrition/#nutrition-facts)**: longer than some psets at ~30 lines due to using a `dict`, I solved this one without using a loop… whoops. It goes to show there are many ways to make the cat meow. For help, I recommend making a simple `dict` and not simply copying the lecture’s example. A single `dict` is much easier than a `list` with multiple `dict`‘s.
 
-## **3. Exceptions**
+## Exceptions
 
 Here are my notes for Week 3’s lecture, be aware you’ll use all of the concepts outlined in the psets.
 
@@ -101,7 +102,7 @@ Now let’s get into the psets:
 
 Alright, now Week 3 psets have come and gone, the wait for Week 4 is on. Enjoy the learning (struggle) haha.
 
-## **4. Libraries**
+## Libraries
 
 If interested, here’s my notes from W4’s lecture:
 
@@ -123,7 +124,7 @@ With that out of the way, let’s get into the psets:
 
 **[Bitcoin Price Index](https://cs50.harvard.edu/python/2022/psets/4/bitcoin/#bitcoin-price-index):** after `professor` this was much easier, I used the same problem-solving method and am now understanding why custom functions are so valuable. I created `check_argv()` and `get_bc_value()` both serve there own abstracted purpose. Regarding using `json` I didn’t need to import `json` but just used `requests.get()` and then the `.json()` method. Don’t forget you can index by specifying the key, example `o['bpi']`.
 
-## **5. Unit Tests**
+## Unit Tests
 
 I found Week 5 psets really hard and not as interesting as previous weeks. It’s worth taking your time to improve your code when reworking some previous psets. You’ll find it will deepen your understanding of earlier weeks. Also, no notes from me this week, see the [official notes](https://cs50.harvard.edu/python/2022/notes/5/).
 
@@ -149,7 +150,7 @@ I found Week 5 psets really hard and not as interesting as previous weeks. It’
 
 **[Refueling](https://cs50.harvard.edu/python/2022/psets/5/test_fuel/#refueling):** the rework saved me ~10 lines of code, but for `test_fuel` make sure to use `pytest.raises()` to test for errors. Otherwise testing your functions is similar to the other test psets.
 
-## **6. File I/O**
+## File I/O
 
 Alright, Week 6, file in out, let’s go. Here are my notes for the week:
 
@@ -167,7 +168,7 @@ Notes done, now let’s see the psets:
 
 **[CS50 P-Shirt](https://cs50.harvard.edu/python/2022/psets/6/shirt/#cs50-p-shirt):** this was a lot of fun, moving from text/terminals to graphics/images is awesome. In approx ~30 lines, with again two functions of 1) validate, and 2) edit, this is all about the `PIL` library. You’ll need a few `if`, `elif` statements to validate and for the edit function use `ImageOps.fit()`.
 
-## **7. Regular Expressions**
+## Regular Expressions
 
 Great, now Week 7 RegEx (RE). I was worried about the increased difficulty of RE but glad to finally learn the language within the language. No custom notes from me so here are [the official notes](https://cs50.harvard.edu/python/2022/notes/7/).
 
@@ -181,7 +182,7 @@ Great, now Week 7 RegEx (RE). I was worried about the increased difficulty of RE
 
 **[Response Validation](https://cs50.harvard.edu/python/2022/psets/7/response/#response-validation):** great use of the `validator_collection` library, and again just 7 lines of code with a single function. Make sure to read the docs linked and don’t overthink it.
 
-## **8. Object-Oriented Programming**
+## Object-Oriented Programming
 
 Well Week 8 nearly broke me, I thought Unit Testing was a challenge, that was nothing compared to Object-Oriented Programming (OOP). In short, I passed all psets with significant assistance from a work colleague, CS50P staff and fellow students via Discord. I couldn’t have done it without them.
 
@@ -191,7 +192,7 @@ Well Week 8 nearly broke me, I thought Unit Testing was a challenge, that was no
 
 **[CS50 Shirtificate](https://cs50.harvard.edu/python/2022/psets/8/shirtificate/#cs50-shirtificate):** this was actually a nice last pset as it was a bit challenging but pretty straightforward. After the last two psets, I think it was nice to end on an easier one imo. Less than 20 lines, just a single main function and six methods from `FPDF()` – and that’s it!
 
-## 9. Et Cetera
+## Et Cetera
 
 No psets for this week, just the final project, how exciting! Stay tuned as I’ll be writing a full breakdown of [my final project](https://www.youtube.com/watch?v=KoEHd3VtJ9E) along with a course review and reflection.
 
