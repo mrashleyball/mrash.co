@@ -1,19 +1,19 @@
 ---
-id: 5499
 title: 'Privacy: Why You Should Care About Data'
 author: Mr Ash
 type: "post"
-guid: https://mrash.co/?p=5499
+published: 2022-04-25
+lastUpdated: 2022-11-05
 url: "/privacy-why-you-should-care-about-data/"
-ekit_post_views_count:
-- '240'
-fifu_image_url:
-- https://p146.p4.n0.cdn.getcloudapp.com/items/d5u9jeAr/1e310458-11e2-4b3e-a634-59c9a83462c1.jpeg?v=1c9deedba72639f304bfc84935cf0dd5
 image: https://p146.p4.n0.cdn.getcloudapp.com/items/d5u9jeAr/1e310458-11e2-4b3e-a634-59c9a83462c1.jpeg?v=1c9deedba72639f304bfc84935cf0dd5
-categories: "['Cyber']"
+categories: Cyber
+tags:
+    - 
 ---
 
-<iframe frameborder="0" height="102px" loading="lazy" scrolling="no" src="https://anchor.fm/mrashleyball/embed/episodes/Privacy-Why-You-Should-Care-About-Data-e1hjs82" width="400px"></iframe>In [March 2022](https://mrash.co/letter/scammed-mar-22/), some friends of mine got scammed on Instagram. A scammer posing as a friend or work colleague tricked them into “helping” them out and took over their account.
+<!-- <iframe frameborder="0" height="102px" loading="lazy" scrolling="no" src="https://anchor.fm/mrashleyball/embed/episodes/Privacy-Why-You-Should-Care-About-Data-e1hjs82" width="400px"></iframe> -->
+
+In [March 2022](https://mrash.co/letter/scammed-mar-22/), some friends of mine got scammed on Instagram. A scammer posing as a friend or work colleague tricked them into “helping” them out and took over their account.
 
 It’s motivated me to help those I know and love by being more aware of the dangers that lurk on the internet. The reality is, that the internet is full of your personally identifiable information (PII) being leaked and publically available.
 
@@ -45,7 +45,9 @@ If you receive a link or random message, even if you recognize the name, be susp
 
 For example, here’s a screenshot of a recent attempted scam that my wife received:
 
-<figure class="wp-block-image">![https://p146.p4.n0.cdn.getcloudapp.com/items/RBunkmPZ/c2a2ae5d-5c86-4cde-8ddb-78bf692aecc1.png?v=b0685bf9342089f8a44c810c0ebab388](https://p146.p4.n0.cdn.getcloudapp.com/items/RBunkmPZ/c2a2ae5d-5c86-4cde-8ddb-78bf692aecc1.png?v=b0685bf9342089f8a44c810c0ebab388)</figure>The message came from someone she knows, it seemed somewhat trustworthy, right? Wrong, a random link like this is highly suspicious.
+![https://p146.p4.n0.cdn.getcloudapp.com/items/RBunkmPZ/c2a2ae5d-5c86-4cde-8ddb-78bf692aecc1.png?v=b0685bf9342089f8a44c810c0ebab388](https://p146.p4.n0.cdn.getcloudapp.com/items/RBunkmPZ/c2a2ae5d-5c86-4cde-8ddb-78bf692aecc1.png?v=b0685bf9342089f8a44c810c0ebab388)
+
+The message came from someone she knows, it seemed somewhat trustworthy, right? Wrong, a random link like this is highly suspicious.
 
 Using the domain name **gift store buzz**, you can [search that up](https://search.brave.com/search?q=gift+store+buzz&source=web) with other terms like ‘Instagram’ or ‘scam’ to see if this is common. In the case of this scam, there are a lot of articles [like this one](https://rationalinsurgent.com/gift-shop-buzz-instagram-message/) that showcases it.
 

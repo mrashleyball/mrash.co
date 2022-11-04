@@ -1,16 +1,15 @@
 ---
-id: 5488
-title: Learning HTTP Requests &#8211; A Mini HTTP Exercise
+title: Learning HTTP Requests - A Mini HTTP Exercise
 author: Mr Ash
 type: "post"
-guid: https://mrash.co/?p=5488
+published: 2022-04-21
+lastUpdated: 2022-11-05
 url: "/learning-http-requests-a-mini-http-exercise/"
-ekit_post_views_count:
-- '272'
-fifu_image_url:
-- https://p146.p4.n0.cdn.getcloudapp.com/items/YEurJedy/f5603ee4-d77d-4dee-9872-b261aed8a79d.jpeg?v=69443a1f965c99c7a55c9ec55b2de2d9
 image: https://p146.p4.n0.cdn.getcloudapp.com/items/YEurJedy/f5603ee4-d77d-4dee-9872-b261aed8a79d.jpeg?v=69443a1f965c99c7a55c9ec55b2de2d9
-categories: "['Web']"
+categories: Web
+tags:
+    - Networking
+    - 
 ---
 
 While learning [HTTP in Detail](https://tryhackme.com/room/httpindetail), I thought it’d be fun to put it to the test in the terminal.
@@ -42,9 +41,13 @@ But I thought it’d be fun to go one step further and test it out within the te
 
 Using the python webserver with netcat, you can clearly see the request making it to the server and it responds with the `index.html` file, very cool.
 
-<figure class="wp-block-image">![https://p146.p4.n0.cdn.getcloudapp.com/items/7KuQnzg6/32afd2e5-d1d2-45b8-9e70-6f6cddccb37d.jpeg?v=02e071e63c51d47eaaecca3f5e5f40d4](https://p146.p4.n0.cdn.getcloudapp.com/items/7KuQnzg6/32afd2e5-d1d2-45b8-9e70-6f6cddccb37d.jpeg?v=02e071e63c51d47eaaecca3f5e5f40d4)</figure>And for the `flag.txt` you simply need to specify the file path to get the response:
+![https://p146.p4.n0.cdn.getcloudapp.com/items/7KuQnzg6/32afd2e5-d1d2-45b8-9e70-6f6cddccb37d.jpeg?v=02e071e63c51d47eaaecca3f5e5f40d4](https://p146.p4.n0.cdn.getcloudapp.com/items/7KuQnzg6/32afd2e5-d1d2-45b8-9e70-6f6cddccb37d.jpeg?v=02e071e63c51d47eaaecca3f5e5f40d4)
 
-<figure class="wp-block-image">![https://p146.p4.n0.cdn.getcloudapp.com/items/rRu1BgPb/5bcd68ab-a90a-4001-8a4d-2690d616ceb3.jpeg?v=3a1d02039587da30a671942a5932959c](https://p146.p4.n0.cdn.getcloudapp.com/items/rRu1BgPb/5bcd68ab-a90a-4001-8a4d-2690d616ceb3.jpeg?v=3a1d02039587da30a671942a5932959c)</figure>For more help, here’s a list of links to helpful guides/articles/forums I used in my research:
+And for the `flag.txt` you simply need to specify the file path to get the response:
+
+![https://p146.p4.n0.cdn.getcloudapp.com/items/rRu1BgPb/5bcd68ab-a90a-4001-8a4d-2690d616ceb3.jpeg?v=3a1d02039587da30a671942a5932959c](https://p146.p4.n0.cdn.getcloudapp.com/items/rRu1BgPb/5bcd68ab-a90a-4001-8a4d-2690d616ceb3.jpeg?v=3a1d02039587da30a671942a5932959c)
+
+For more help, here’s a list of links to helpful guides/articles/forums I used in my research:
 
 - [HTTP in detail – How the web works](https://youtu.be/XZyapIKV3Rw)
 - [Networking Fundamentals – Practical Networking](https://www.youtube.com/playlist?list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi)
@@ -60,8 +63,9 @@ This was a really fun little exercise to think up and put together, I love doing
 
 Thanks for reading and I hope you learned something from this little exercise. This is day 47 of [\#100DaysOfHacking](https://mrashleyball.com/100daysofhacking/) on the [Hackers Learning Path](https://mrashleyball.com/learning-path-for-beginner-hacker/). [Subscribe](https://go.mrash.co/newsletter) for [CyberSec](https://mrashleyball.com/starting-out-in-cyber-security/) updates or [read](https://mrashleyball.com/blog) more, happy hacking.
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">> While learning [\#HTTP](https://twitter.com/hashtag/HTTP?src=hash&ref_src=twsrc%5Etfw) via [@RealTryHackMe](https://twitter.com/RealTryHackMe?ref_src=twsrc%5Etfw) I put together a little HTTP exercise to see if I understood what the hell is going on… turns out I sort of do!<https://t.co/d0CDOsCwtc>
+<!-- <figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">> While learning [\#HTTP](https://twitter.com/hashtag/HTTP?src=hash&ref_src=twsrc%5Etfw) via [@RealTryHackMe](https://twitter.com/RealTryHackMe?ref_src=twsrc%5Etfw) I put together a little HTTP exercise to see if I understood what the hell is going on… turns out I sort of do!<https://t.co/d0CDOsCwtc>
 > 
-> — Mr Ash (@mrash\_co) [April 21, 2022](https://twitter.com/mrash_co/status/1516972769766158337?ref_src=twsrc%5Etfw)
+> — Mr Ash (@mrash\_co) [April 21, 2022](https://twitter.com/mrash_co/status/1516972769766158337?ref_src=twsrc%5Etfw) -->
 
-<script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js"></script></div></figure>
+<!-- <script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js"></script></div> -->
+
