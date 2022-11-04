@@ -10,6 +10,7 @@ categories:
     - Programming
 tags:
     - Python
+    - Automate The Boring Stuff
 ---
 
 <!-- <iframe frameborder="0" loading="lazy" scrolling="no" src="https://anchor.fm/mrashleyball/embed/episodes/Basic-Python-Project--Is-It-Raining-e16j8nq" width="100%"></iframe> -->
