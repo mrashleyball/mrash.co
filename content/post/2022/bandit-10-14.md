@@ -11,6 +11,7 @@ fifu_image_url:
 - https://p146.p4.n0.cdn.getcloudapp.com/items/6quGzRY6/aaafbeeb-e883-44ed-92e7-6555d3c64e65.jpg?source=viewer&v=dd7fb37f5da20bcc9fbd0234570986dc
 image: https://p146.p4.n0.cdn.getcloudapp.com/items/6quGzRY6/aaafbeeb-e883-44ed-92e7-6555d3c64e65.jpg?source=viewer&v=dd7fb37f5da20bcc9fbd0234570986dc
 categories: "['Linux']"
+draft: true
 ---
 
 Over The Wire’s Bandit is a Linux Capture The Flag that tests your hacking skills. In this video, we walk through Bandit levels 10 to 14. These are some of the more difficult levels, but our clear and concise explanations will help you get through them. By the end of this video, you’ll be one step closer to becoming a master hacker!

@@ -1,20 +1,15 @@
 ---
-id: 3696
 title: 100 Days Of Hacking
 author: Mr Ash
 type: "post"
-guid: https://mrash.co/?p=3696
+published: 2022-10-17
+lastUpdated: 2022-11-04
 url: "/100daysofhacking/"
-primary_accent:
-- '#004CFF'
-secondary_accent:
-- '#FF9D00'
-ekit_post_views_count:
-- '2214'
-classic-editor-remember:
-- block-editor
 image: https://images.unsplash.com/photo-1541176447985-6bb45fb77a14?ixid=MnwxNTI0MzJ8MHwxfGFsbHx8fHx8fHx8fDE2MTY3NjU5MTk&ixlib=rb-1.2.1&fm=jpg&q=85&fit=crop&w=1707&h=2560
-categories: "['Hacking']"
+categories: Cyber
+tags:
+    - Hacking
+    - Project
 ---
 
 <iframe frameborder="0" height="102px" loading="lazy" scrolling="no" src="https://anchor.fm/mrashleyball/embed/episodes/100-Days-Of-Hacking-e16j8d7" width="400px"></iframe>Programming, terminals, networking, and penetration testing. There’s a lot to love in computer hacking.

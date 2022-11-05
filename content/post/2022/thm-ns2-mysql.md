@@ -1,15 +1,13 @@
 ---
 id: 5707
-title: Network Services 2 P3 MySQL &#8211; TryHackMe Walkthrough
+title: Network Services 2 P3 MySQL - TryHackMe Walkthrough
 author: Mr Ash
 type: "post"
-guid: https://mrash.co/?p=5707
+published: 2022-07-19
+lastUpdated: 2022-11-04
 url: "/tyryhackme-network-services-2-p3-mysql/"
-ekit_post_views_count:
-- '180'
-fifu_image_url:
-- https://www.youtube.com/watch?v=cxwwEz7LJSA
-image: https://www.youtube.com/watch?v=cxwwEz7LJSA
+draft: true
+image: 
 categories: "['Hacking']"
 ---
 

@@ -3,23 +3,22 @@ id: 3748
 title: 'OverTheWire: Bandit'
 author: Mr Ash
 type: "post"
-guid: https://mrash.co/?p=3748
+published: 2022-10-07
+lastUpdated: 2022-11-05
 url: "/overthewire-bandit/"
-primary_accent:
-- '#004CFF'
-secondary_accent:
-- '#FF9D00'
-ekit_post_views_count:
-- '897'
-fifu_image_url:
-- https://p146.p4.n0.cdn.getcloudapp.com/items/v1uQQLz6/a064ad4e-08c8-4772-b2cb-9d88154ff6c8.jpg?v=e53575edd6537ceeac47f3938f66359a
 image: https://p146.p4.n0.cdn.getcloudapp.com/items/v1uQQLz6/a064ad4e-08c8-4772-b2cb-9d88154ff6c8.jpg?v=e53575edd6537ceeac47f3938f66359a
-categories: "['Linux']"
+categories: Cyber
+tags:
+    - Linux
+    - Over The Wire
+    - 
 ---
 
 Bandit is a beginner Capture The Flag (CTF) game from OverTheWire (OTW).
 
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper"><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="450" loading="lazy" src="https://www.youtube.com/embed/JjiG4CYxXgw?feature=oembed" title="OverTheWire Bandit Walkthrough | Beginner Capture The Flag (CTF) Guide | OTWBandit Level 0 - 4" width="800"></iframe></div></figure>Whether you’re familiar with text-based games or have never even thought of playing them (me). This is the perfect CTF for learning Linux.
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper"><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="450" loading="lazy" src="https://www.youtube.com/embed/JjiG4CYxXgw?feature=oembed" title="OverTheWire Bandit Walkthrough | Beginner Capture The Flag (CTF) Guide | OTWBandit Level 0 - 4" width="800"></iframe></div></figure>
+
+Whether you’re familiar with text-based games or have never even thought of playing them (me). This is the perfect CTF for learning Linux.
 
 You’re here to either copy my answers OR learn. Can I ask you to please focus on the learning? It’s okay to peak when you’re so blind it’s crippling you, but please don’t just copy, copy, copy!
 

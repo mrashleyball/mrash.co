@@ -6,12 +6,12 @@ date: 2019-12-16
 image: https://p146.p4.n0.cdn.getcloudapp.com/items/Kou1KPNL/ce995e43-746b-4d5c-8c5c-66ceca3e6a81.jpg?source=viewer&v=261edaa27e33abde0ebf8a193229bfe0
 categories: Work-Life
 tags: 
-    - Events
-    - Personal Growth
+    - Event
     - Annual Review
+    - Project
 ---
 
-<iframe src="https://anchor.fm/mrashleyball/embed/episodes/2019-In-Review-e16ksqi" width="100%" frameborder="0" scrolling="no"></iframe>
+<!-- <iframe src="https://anchor.fm/mrashleyball/embed/episodes/2019-In-Review-e16ksqi" width="100%" frameborder="0" scrolling="no"></iframe> -->
 
 What a year! 2019 has been busy to say the least, I’ve learnt a lot of new lessons made even more mistakes! But overall, it’s been a massive year of growth so it’s all been worth it! Let’s review 2019!
 
