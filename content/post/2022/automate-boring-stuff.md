@@ -10,6 +10,7 @@ categories: Programming
 tags:
     - Python
     - Automate The Boring Stuff
+    - 100DaysOfHacking
 ---
 
 [Automate The Boring Stuff With Python](https://automatetheboringstuff.com/) is an incredible book, and course by [Al Sweigart](https://alsweigart.com/) to learn Python coding and computer science for the everyday person. With its straightforward learning approach, and succinct program examples and explanations, it’s many hobbyists’ go-to book for Python.

@@ -1,16 +1,17 @@
 ---
-id: 3804
 title: TryHackMe RootMe Walkthrough
 published: 2021-04-02
+lastUpdated: 2022-11-06
 type: post
 url: /tryhackme-rootme/
-image: https://images.unsplash.com/photo-1505840245328-1d903e2eba8d?ixid=MnwxNTI0MzJ8MHwxfGFsbHx8fHx8fHx8fDE2MTczNDc0MTA&ixlib=rb-1.2.1&fm=jpg&q=85&fit=crop&w=1945&h=2560
+image: "https://p146.p4.n0.cdn.getcloudapp.com/items/5zuPx46m/9393a1b2-5bae-4db3-a53e-d87c254adaa4.jpg?v=6f2c17b6b25f92419e0c317a9e3655c6"
 categories:
     - Cyber
 tags:
     - TryHackMe
     - Capture The Flag
-    - CyberSec
+    - Walkthrough
+    - 100DaysOfHacking
 ---
 
 I’m still on the Complete Beginner learning path from TryHackMe, so this is my first venture outside into their library of CTF’s.

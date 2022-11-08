@@ -5,12 +5,13 @@ type: post
 published: 2021-06-06
 lastUpdated: 2022-11-02
 url: "/basic-python-project-is-it-raining/"
-image: /wp-content/uploads/2021/06/pexels-photo.jpg
+image: "https://p146.p4.n0.cdn.getcloudapp.com/items/NQuj6d24/df31ad4b-8b2c-48d2-ad69-f9b4f822fa4d.jpg?v=1324bb8409a88c5152f8b6b9868d8be3"
 categories: 
     - Programming
 tags:
     - Python
     - Automate The Boring Stuff
+    - 100DaysOfHacking
 ---
 
 <!-- <iframe frameborder="0" loading="lazy" scrolling="no" src="https://anchor.fm/mrashleyball/embed/episodes/Basic-Python-Project--Is-It-Raining-e16j8nq" width="100%"></iframe> -->

@@ -1,8 +1,9 @@
 ---
 title: Kali Linux WSL WITHOUT Microsoft Store
 date: 2021-04-30
+lastUpdated: 2022-11-07
 type: post
-url: /kali-linux-wsl-without-microsoft-store/
+url: "/kali-linux-wsl-without-microsoft-store/"
 image: https://images.unsplash.com/photo-1553877522-43269d4ea984?ixid=MnwxNTI0MzJ8MHwxfGFsbHx8fHx8fHx8fDE2MTk3NTQ3Njc&ixlib=rb-1.2.1&fm=jpg&q=85&fit=crop&w=2560&h=1707
 categories: 
     - Cyber

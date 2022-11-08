@@ -1,13 +1,16 @@
 ---
-id: 4789
-title: A Year In Review &#8211; 2020 Edition
+title: A Year In Review - 2020 Edition
 author: Mr Ash
-type: "revision"
-guid: https://mrash.co/?p=4789
-url: "/?p=4789"
+type: post
+url: "/yearly-review-2020/"
+image: "https://p146.p4.n0.cdn.getcloudapp.com/items/Kou1PvR7/d370dfed-e186-4df1-afed-d6888a2d8a08.jpg?v=a9af7f093e098568288698fe94fcfbd5"
+published: 2020-12-28
+lastUpdated: 2022-11-08
 ---
 
-<div class="podcastdotco-wrapper"><iframe class="podcastdotco-player podcastdotco-player--episode" data-target="mrashleyball/a-year-in-review-2020-edition-1" frameborder="0" scrolling="no" src="https://play.pod.co/mrashleyball/a-year-in-review-2020-edition-1" style="overflow:hidden;max-width:750px;height:160px;" width="100%"></iframe><script src="https://play.pod.co/embed/frame-v1.js"></script></div>I’ve been procrastinating this article. Summarising an entire year feels difficult. But I see the value in looking back. It makes moving forward clearer.
+<!-- <div class="podcastdotco-wrapper"><iframe class="podcastdotco-player podcastdotco-player--episode" data-target="mrashleyball/a-year-in-review-2020-edition-1" frameborder="0" scrolling="no" src="https://play.pod.co/mrashleyball/a-year-in-review-2020-edition-1" style="overflow:hidden;" width="100%"></iframe><script src="https://play.pod.co/embed/frame-v1.js"></script></div> -->
+
+I’ve been procrastinating this article. Summarising an entire year feels difficult. But I see the value in looking back. It makes moving forward clearer.
 
 Looking forward is hard. The future is a fantasy. No one knows what’s happening tomorrow. But looking back is tangible. I like tangible. So here’s my look back at the past 12 months. Ups, downs and the honesty in-between.
 
@@ -20,7 +23,7 @@ This article is self-indulgent. If you want value, this isn’t for you. If you 
 5. Family, Friends and Fun
 6. Looking Forward with an Annual Plan
 
-## 1. Quitting The Company
+## Quitting The Company
 
 After two and a half years, I’ve quit my business. A difficult, overdue decision. In 2018, a group of five of us came together. The intentions were simple, to join skills and become a digital agency. We strived to be transparent, offer fair prices and do high-quality work.
 
@@ -32,7 +35,7 @@ We all had strong relationships within the business. Conveying my stance and mov
 
 Now, the business lives on. I wish them the best and hope it becomes what we dreamt. I’m happy I contributed, but I’m happier now.
 
-## 2. Current Teaching Position
+## Current Teaching Position
 
 Classroom teaching has been rewarding. As an extrovert, I get energy from others. The environment is perfect for me. I value my team of teachers. I’m thankful to have level headed, honest and hard-working teammates. Our students have been great too. Met lots of nice people and made new friends.
 
@@ -42,7 +45,7 @@ I attended a two-day workshop dedicated to understanding and developing leadersh
 
 **I learnt the importance of failing**. Things go wrong all the time. As a teacher and especially in I.T, I’ve always avoided failure. I was the kid who never asked questions in school. But failing brings an opportunity to learn. When things go wrong, we figure out what’s right.
 
-## 3. New Teaching Position
+## New Teaching Position
 
 Since March, students are learning over the internet; 70% of students enrolling for my qualification are remote. Online enrollments have increased over the year. My last class was the smallest, ever. It’s worried me. Without enrollments, there are no classes which means no hours i.e. no job. The emotion of fear drove action.
 
@@ -50,7 +53,7 @@ I started to book meetings with people I knew. One teacher led to another which 
 
 **I learnt to find and go through windows**. I went outside the norm and found a new teaching position. It wasn’t advertised, there was no door in. So I found a window. Going into 2021, I have full-time work across two teaching roles!
 
-## 4. Writing Well and Creating Content
+## Writing Well and Creating Content
 
 2019 taught me I love learning. 2020 is writing. How incredible is writing? I’m writing every day. Morning journaling, daily brain dumps and blog posts.
 
@@ -58,7 +61,7 @@ I’m committed to writing a weekly newsletter. I’m also publishing semi-regul
 
 **I’ve learnt I need a system** if I want to build a skill or habit. Everything gets stored in Notion. I’m building templates to optimise time and databases to organise content. **I learnt consuming vs contributing**. The internet is our global knowledge pool. Consuming content spurs ideas for reference. Contributing content is fulfilling. I’m finding the balance.
 
-## 5. Family, Friends and Fun
+## Family, Friends and Fun
 
 Since September 2019, it’s been one year of marriage. I love having a companion I can trust, support and experience life with. I’m much happier now and wouldn’t have it any other way. We celebrated our first anniversary by going inland to a small town called Montville. We spent a few days relaxing and enjoying each other’s company.
 
@@ -66,7 +69,7 @@ Throughout the year like everyone, travelling wasn’t an option. We got away to
 
 **I learnt the importance of family.** With grandparents getting older and an increase in health issues. One of the top regrets in life is not spending enough time with family. I’m so grateful to have my family and my wife’s family in my life.
 
-## 6. Looking Forward with an Annual Plan
+## Looking Forward with an Annual Plan
 
 **Vision statement:**  
 In 2021 I’ll have published 52 weekly newsletters, 20+ blog posts and have a backlog of content ideas. I’ll have clearer thoughts on subjects and better package them for others. I’ll grow my newsletter subscribers to over 100. I’ll feel comfortable working in public and confident writing well. I’ll focus on LinkedIn and grow my post engagement to 10+ per post. I’ll take part in online networking events and make higher quality, genuine connections. And I’ll be more comfortable conversing in social settings.

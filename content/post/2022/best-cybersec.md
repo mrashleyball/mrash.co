@@ -1,5 +1,5 @@
 ---
-title: "Best Way To Learn CyberSec • Oct 22"
+title: "Best Way To Learn CyberSec - Oct 22"
 published: 2022-10-31
 lastUpdated: 2022-11-01
 type: post

@@ -11,6 +11,7 @@ categories:
 tags:
     - Python
     - Automate The Boring Stuff
+    - 100DaysOfHacking
 ---
 
 Do you want a beginner Python project to keep you on your programming journey?

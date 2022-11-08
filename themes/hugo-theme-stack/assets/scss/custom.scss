@@ -1,15 +1,20 @@
 /* Place your custom SCSS in HUGO_SITE_FOLDER/assets/scss/custom.scss */
 
-.article-page > .main-article > .article-content > img, img {
-    border-radius: 7.5px !important;
-}
+// .article-page > .main-article > .article-content > img, img {
+//     border-radius: 7.5px !important;
+// }
 
-.article-page {
-	.main-article {
-		.article-content {
-			img {
-				border-radius: 7.5px !important;
-			}
-		}
-	}
+// .article-page {
+// 	.main-article {
+// 		.article-content {
+// 			img {
+// 				border-radius: 7.5px !important;
+// 			}
+// 		}
+// 	}
+// }
+
+body {
+	// max-width: 1175px !important;
+	background-color: red;
 }

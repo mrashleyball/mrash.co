@@ -1,17 +1,19 @@
 ---
 title: How To Setup Ubuntu Using VirtualBox
-date: 2021-03-27
+published: 2021-03-27
+lastUpdated: 2022-11-08
 type: post
 url: "/how-to-setup-ubuntu-using-virtualbox/"
-image: https://images.unsplash.com/photo-1599153066743-08810dc8a419?ixid=MnwxNTI0MzJ8MHwxfGFsbHx8fHx8fHx8fDE2MTY4NDU5MjQ&ixlib=rb-1.2.1&fm=jpg&q=85&fit=crop&w=2560&h=1920
+image: "https://p146.p4.n0.cdn.getcloudapp.com/items/4gueokEN/0b52c810-7da7-4b58-b0c0-634cd8ac5f6a.jpg?v=ea1fb04b5a7d9710bc4984a9e9920cd2"
 categories: Cyber
 tags: 
     - Linux
     - Virtual Machine
     - VirtualBox
+    - 100DaysOfHacking
 ---
 
-<iframe frameborder="0" scrolling="no" src="https://anchor.fm/mrashleyball/embed/episodes/How-To-Setup-Ubuntu-Using-VirtualBox-e16jqn4" width="100%"></iframe>
+<!-- <iframe frameborder="0" scrolling="no" src="https://anchor.fm/mrashleyball/embed/episodes/How-To-Setup-Ubuntu-Using-VirtualBox-e16jqn4" width="100%"></iframe> -->
 
 Setting up a Linux Operating System like Ubuntu can be a bit daunting, especially if you’re a firm Windows user with no Linux experience.
 
@@ -19,7 +21,7 @@ I’m glad you’re here starting your Linux journey! You won’t look back!
 
 Ubuntu is generally accepted as the most beginner-friendly Linux OS.
 
-## 1. Download Ubunutu & VirtualBox
+## Download Ubuntu and VirtualBox
 
 Go to [ubuntu.com](https://ubuntu.com/download/desktop) to download the iso file, it has the entire operating system compressed into it.
 
@@ -41,7 +43,7 @@ You don’t have to read all of it, but it’s good to know the [VirtualBox User
 
 Once downloaded, install VirtualBox by running the .exe file.
 
-## 2. Virtual Machine Settings
+## Virtual Machine Settings
 
 Let’s get Ubuntu installed:
 
@@ -60,7 +62,7 @@ Let’s get Ubuntu installed:
 7. Read the difference between Dynamically allocated and Fixed-size, I recommend Dynamic.
 8. Now for File location and size leave the file path default and scale up the size to at least 25GB to fit system requirements.
 
-## 3. Insert Ubuntu ISO File
+## Insert Ubuntu ISO File
 
 Great! Now your VM is ready to boot… or is it??
 
@@ -80,7 +82,7 @@ Great! Now your VM is ready to boot… or is it??
 
 Now follow your nose from here, watch the prompts and check the settings, it’s straightforward.
 
-## 4. Setup Guest Additions
+## Setup Guest Additions
 
 Once your new Ubuntu VM is set up and ready to rock, it’s recommended to install [VirtualBox’s Guest Additions](https://www.virtualbox.org/manual/UserManual.html#guestadditions). It’s optional software that gives some ‘nice to have features to make life easier.
 

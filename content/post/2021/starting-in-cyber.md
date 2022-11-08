@@ -1,15 +1,17 @@
 ---
 title: Starting Out In Cyber Security
 type: post
-date: 2021-03-28
-url: /starting-out-in-cyber-security/
-image: "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?ixid=MnwxNTI0MzJ8MHwxfGFsbHx8fHx8fHx8fDE2MTY4Nzc2NTE&ixlib=rb-1.2.1&fm=jpg&q=85&fit=crop&w=2560&h=1706"
-categories: 
-    - Cyber
+published: 2021-03-28
+lastUpdated: 2022-11-08
+url: "/starting-out-in-cyber-security/"
+image: "https://p146.p4.n0.cdn.getcloudapp.com/items/d5unoGKk/f5d9dc91-9b8e-4a80-b517-b7c9cc014b2e.jpg?v=dc0c2c48206ff6d2b8cd60eb244087bb"
+categories: Cyber 
+tags: 
     - Hacking
+    - 100DaysOfHacking
 ---
 
-<iframe frameborder="0" loading="lazy" scrolling="no" src="https://anchor.fm/mrashleyball/embed/episodes/Starting-Out-In-Cyber-Security-e16jqhk" width="100%"></iframe>
+<!-- <iframe frameborder="0" loading="lazy" scrolling="no" src="https://anchor.fm/mrashleyball/embed/episodes/Starting-Out-In-Cyber-Security-e16jqhk" width="100%"></iframe> -->
 
 Over the last few years, the term Cyber Security has become more popular.
 

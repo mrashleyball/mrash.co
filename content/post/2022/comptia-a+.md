@@ -12,7 +12,7 @@ tags:
     - Notes
 ---
 
-## Installing Hardware &amp; Display Components
+## Installing Hardware and Display Components
 
 ### Hardware and Device Replacement
 
@@ -137,7 +137,7 @@ Digitizer: any device taking analogue input and outputting digital signals. Proc
 
 Digitizer Example: Microphones use a thin, metal diaphragm that vibrates in response to sound waves, then passed to a recording device.
 
-## CompTIA A+ Core 1: Mobile Device Accessories &amp; Network
+## CompTIA A+ Core 1: Mobile Device Accessories and Network
 
 ### Universal Serial Bus (USB)
 
